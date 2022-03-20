@@ -2,6 +2,7 @@ var autoPlay = false;
 
 function randomize() {
     // Randomizes song being played
+    console.log(idPair.length)
     let id = Math.floor(Math.random() * idPair.length);
     // Find the string of the title
     let srcString = "Music/" + idPair[id][1] + ".mp4";
