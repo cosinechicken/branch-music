@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Music Player</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<script src="player.js"></script>
+
+<h1> Music Player</h1>
+
+<div>
+    <br>
+    <div>
+        <text id="current">Currently Playing: undefined</text>
+    </div>
+    <br>
+    <div>
+    <audio id="audio" controls="controls" style="width:800px" playsinline>
+        <source src = "Music/Chopin Op 27 No 2.mp4" id="audioSource" type="audio/mp4">></source>
+        Your browser does not support the audio format.
+    </audio>
+    </div>
+    <br>
+    
+</div>
+<div>
+    <h4>Toggle Autoplay</h4>
+    <button type="button" onclick="randomize()">Click Me!</button>
+</div>
+
+</body>
+
+</html>
