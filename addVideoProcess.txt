@@ -1,0 +1,6 @@
+1. Find a suitable recording of the video
+2. Process then download the lowest quality mp4 video from yt5s.com
+3. Move the video to the Music folder in the GitHub repository
+4. Add the video information with the youtube link and new id number to data.js
+5. Trim the front and end of the video
+6. Rename the video to the standard video and delete the old version of the video
