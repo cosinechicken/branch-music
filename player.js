@@ -10,6 +10,7 @@ function randomize() {
     document.getElementById("audio").src = srcString;
     document.getElementById("current").textContent = "Currently Playing: " + idPair[id][1] 
         + " (ID: " + idPair[id][0] + ")";
+    document.getElementById("audio").play();
 }
 function toggleAutoplay() {
     // Toggle autoplay button
