@@ -15,11 +15,6 @@ function randomize() {
 function toggleAutoplay() {
     // Toggle autoplay button
     autoPlay = !autoPlay;
-    if (autoPlay) {
-        document.getElementById("autoplayText").textContent = "Autoplay: On"
-    } else {
-        document.getElementById("autoplayText").textContent = "Autoplay: Off"
-    }
 }
 function audioEnded() {
     // Run this function when the audio ends

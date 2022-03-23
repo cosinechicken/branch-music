@@ -10,6 +10,11 @@ input
 {
     box-sizing:border-box
 }
+p, label{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+}
 h1
 {
   font-size: 56px;

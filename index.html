@@ -25,21 +25,31 @@
         Your browser does not support the audio format.
     </audio>
     </div>
-    <br>
     
 </div>
 <div>
-    <p id="autoplayText">Autoplay: Off</p>
-    <button type="button" onclick="toggleAutoplay()">Toggle Autoplay</button>
+    <p id="autoplayText">Autoplay: 
+        <label class="toggle">
+            <input type="checkbox" onclick="toggleAutoplay()">
+            <span class="slider round"></span>
+            <span class="labels" data-on="ON" data-off="OFF"></span>
+        </label>
+    </p>
+    <br>
+    <!-- <button type="button" onclick="toggleAutoplay()">Toggle Autoplay</button> -->
     <button type="button" onclick="randomize()">Randomize Song</button>
-    <p>See list of songs <a href="songList.html">here</a>.</p>
 </div>
+<br>
 <div>
-    <label>Play song by ID:</label>
+    <label>Play song by ID (<a href="songList.html">list</a>):</label>
+    <br>
     <input type="text" id="idInput" size="10">
+    <br>
     <input type="button"
            onclick="playByID()" 
-           value="submit">
+           value="submit"
+           id="idInputButton">
+           
 </div>
 
 </body>
