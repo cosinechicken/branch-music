@@ -15,6 +15,7 @@ function randomize() {
 function toggleAutoplay() {
     // Toggle autoplay button
     autoPlay = !autoPlay;
+    console.log("autoPlay toggled");
 }
 function audioEnded() {
     // Run this function when the audio ends
