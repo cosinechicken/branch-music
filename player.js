@@ -1,4 +1,4 @@
-var autoPlay = false;
+var loop = false;
 
 function randomize() {
     // Randomizes song being played
@@ -14,15 +14,15 @@ function randomize() {
 }
 function toggleAutoplay() {
     // Toggle autoplay button
-    autoPlay = !autoPlay;
+    loop = !loop;
     console.log("autoPlay toggled");
 }
 function audioEnded() {
     // Run this function when the audio ends
-    if (autoPlay) {
+    if (!loop) {
         randomize();
-        document.getElementById("audio").play();
     }
+    document.getElementById("audio").play();
 }
 function playByID() {
     let id = document.getElementById("idInput").value;
