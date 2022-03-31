@@ -30,3 +30,9 @@ table, th, td {
     border: 1px solid;
     padding: 4px 12px 4px 12px;
 }
+table.sortable tbody tr:nth-child(2n+1) td {
+  background: #FFFFFF;
+}
+table.sortable tbody tr:nth-child(2n) td {
+  background: #EEEEEE;
+}
