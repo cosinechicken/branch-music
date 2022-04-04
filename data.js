@@ -133,7 +133,10 @@ var dict = {
   "0662": "Shostakovich Waltz No. 2", // https://www.youtube.com/watch?v=phBThlPTBEg
   "0670": "Sarasate Zigeunerweisen",  // https://www.youtube.com/watch?v=5ysiQMbe_do
   "0671": "Massenet Meditation from Thais", // https://www.youtube.com/watch?v=7QtGOWemQhY
-  "1000": "ylia22",
+  "1000": "Hikaru Nara - Your Lie in April",  // https://www.youtube.com/watch?v=cWtgGTCAjYY 
+  "1001": "Nanairo Symphony - Your Lie in April", // https://www.youtube.com/watch?v=lqRcl2k2xS8
+  "1002": "Kirameki - Your Lie in April", // https://www.youtube.com/watch?v=iI_sbL-xhgw
+  "1003": "Orange - Your Lie in April", // https://www.youtube.com/watch?v=JdSpuTi9d8A
 };
 
 var categories = {
@@ -269,7 +272,10 @@ var categories = {
   "Shostakovich Waltz No. 2": "Classical",
   "Sarasate Zigeunerweisen": "Classical",
   "Massenet Meditation from Thais": "Classical",
-  "ylia22": "Anime",
+  "Hikaru Nara - Your Lie in April": "Anime",
+  "Nanairo Symphony - Your Lie in April": "Anime",
+  "Kirameki - Your Lie in April": "Anime",
+  "Orange - Your Lie in April": "Anime",
 };
 
 var infoList = []
