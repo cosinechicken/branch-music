@@ -1,7 +1,7 @@
 
 var table = document.getElementById("songTable").getElementsByTagName('tbody')[0];
 console.log(table);
-generateTable(table, idPair);
+generateTable(table, infoList);
 
 function generateTable(table, data) {
     for (let element of data) {
