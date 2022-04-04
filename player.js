@@ -2,14 +2,14 @@ var loop = false;
 
 function randomize() {
     // Randomizes song being played
-    console.log(infoList.length)
-    let id = Math.floor(Math.random() * infoList.length);
+    console.log(catInfoList.length)
+    let id = Math.floor(Math.random() * catInfoList.length);
     // Find the string of the title
-    let srcString = "Music/" + infoList[id][1] + ".mp4";
+    let srcString = "Music/" + catInfoList[id][1] + ".mp4";
     console.log(srcString);
     document.getElementById("audio").src = srcString;
-    document.getElementById("current").textContent = "Currently Playing: " + infoList[id][1] 
-        + " (ID: " + infoList[id][0] + ")";
+    document.getElementById("current").textContent = "Currently Playing: " + catInfoList[id][1] 
+        + " (ID: " + catInfoList[id][0] + ")";
     document.getElementById("audio").play();
 }
 function toggleAutoplay() {
@@ -38,6 +38,9 @@ function playByID() {
             document.getElementById("current").textContent = "Currently Playing: " + infoList[i][1] 
         + " (ID: " + infoList[i][0] + ")";
             document.getElementById("audio").play();
+            // Update the category
+            document.getElementById("categorySelect").value = categories[infoList[i][1]];
+            changeCategory();
             return;
         }
     }
@@ -45,5 +48,13 @@ function playByID() {
     document.getElementById("audio").src = "";
 }
 function changeCategory() {
+    // Called when category select is changed, updates the list of songs which can be played
     var category = document.getElementById("categorySelect").value;
+    catInfoList = []
+    for (const [key, value] of Object.entries(dict)) {
+        // Default to category
+        if (categories[value] == category) {
+          catInfoList.push([key, value, categories[value]]);
+        }
+    }  
 }

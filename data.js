@@ -273,7 +273,12 @@ var categories = {
 };
 
 var infoList = []
+var catInfoList = []
 for (const [key, value] of Object.entries(dict)) {
   infoList.push([key, value, categories[value]]);
+  // Default to classical
+  if (categories[value] == "Classical") {
+    catInfoList.push([key, value, categories[value]]);
+  }
 }
 
