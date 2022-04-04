@@ -28,19 +28,23 @@
     
 </div>
 <br>
-<div>
-    <p id="autoplayText">
-        <label class="toggle">
-            <input type="checkbox" onclick="toggleAutoplay()">
-            <span class="slider round"></span>
-            <span class="labels" data-on="Loop" data-off="Autoplay"></span>
-        </label>
-    </p>
-    <br>
-    <!-- <button type="button" onclick="toggleAutoplay()">Toggle Autoplay</button> -->
-    <button type="button" onclick="randomize()">Randomize Song</button>
-</div>
 <br>
+<br>
+<br>
+<div class="container">
+    <div>
+        <p id="autoplayText">
+            <label class="toggle">
+                <input type="checkbox" onclick="toggleAutoplay()">
+                <span class="slider round"></span>
+                <span class="labels" data-on="Loop" data-off="Autoplay"></span>
+            </label>
+        </p>
+        <br>
+        <!-- <button type="button" onclick="toggleAutoplay()">Toggle Autoplay</button> -->
+        <button type="button" onclick="randomize()">Randomize Song</button>
+    </div>
+
 <div>
     <label>Play song by ID (<a href="songList.html">list</a>):</label>
     <br>
@@ -52,7 +56,18 @@
            id="idInputButton">
            
 </div>
+<div>
+    <label for="cars">Category:</label>
 
+    <br>
+
+    <select name="categorySelect" id="categorySelect">
+    <option value="Classical">Classical</option>
+    <option value="Anime">Anime</option>
+    </select>
+</div>
+</div>
+<script src="songList.js"></script>
 </body>
 
 </html>

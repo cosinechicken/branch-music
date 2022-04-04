@@ -28,6 +28,18 @@ button {
   width:300px;
   height:60px;
 }
+select {
+  font-size:28px;
+  width:300px;
+  height:60px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
 .toggle {
   --width: 176px;
   --height: 48px;
