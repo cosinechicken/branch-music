@@ -137,6 +137,21 @@ var dict = {
   "1001": "Nanairo Symphony - Your Lie in April", // https://www.youtube.com/watch?v=lqRcl2k2xS8
   "1002": "Kirameki - Your Lie in April", // https://www.youtube.com/watch?v=iI_sbL-xhgw
   "1003": "Orange - Your Lie in April", // https://www.youtube.com/watch?v=JdSpuTi9d8A
+  "1004": "Nagisa - Clannad", // https://www.youtube.com/watch?v=hNrXDrs352g
+  "1005": "Roaring Tides - Clannad",  // https://www.youtube.com/watch?v=vdk_76z38bA
+  "1006": "My Soul Your Beats - Angel Beats", // https://www.youtube.com/watch?v=zIFV8UUs1-c
+  "1007": "Brave Song - Angel Beats", // https://www.youtube.com/watch?v=xtcvM3s1I1s
+  "1008": "Ichiban no Takaramono - Angel Beats",  // https://www.youtube.com/watch?v=tm7Xf9818FM
+  "1009": "Aoi Shiori - Anohana", // https://www.youtube.com/watch?v=T3bxbVGWy5k
+  "1010": "Secret Base - Anohana",  // https://www.youtube.com/watch?v=SJywJjwqIK8
+  "1011": "Tanjiro no Uta - Demon Slayer",  // https://www.youtube.com/watch?v=bq7caidfUts
+  "1012": "Colors - Code Geass",  // https://www.youtube.com/watch?v=G8CFuZ9MseQ
+  "1013": "Continued Story - Code Geass", // https://www.youtube.com/watch?v=XHViAiVuDsA
+  "1014": "Melissa - FMA",  // https://www.youtube.com/watch?v=uMsOlhzPEfY
+  "1015": "Again - FMAB", // https://www.youtube.com/watch?v=B7uMdmCQabc
+  "1016": "Kaze ni Fukarete - Kaguya-sama", // https://www.youtube.com/watch?v=RCgOP_3P2T4
+  "1017": "Konna Sekai - Akame ga Kill",  // https://www.youtube.com/watch?v=6zvQYq0LDRQ
+  "1018": "Tsuki Akari - Akame ga Kill",  // https://www.youtube.com/watch?v=VMM7E464Qtc
 };
 
 var categories = {
@@ -276,6 +291,21 @@ var categories = {
   "Nanairo Symphony - Your Lie in April": "Anime",
   "Kirameki - Your Lie in April": "Anime",
   "Orange - Your Lie in April": "Anime",
+  "Nagisa - Clannad": "Anime",
+  "Roaring Tides - Clannad": "Anime",
+  "My Soul Your Beats - Angel Beats": "Anime",
+  "Brave Song - Angel Beats": "Anime",
+  "Ichiban no Takaramono - Angel Beats": "Anime",
+  "Aoi Shiori - Anohana": "Anime",
+  "Secret Base - Anohana": "Anime",
+  "Tanjiro no Uta - Demon Slayer": "Anime",
+  "Colors - Code Geass": "Anime",
+  "Continued Story - Code Geass": "Anime",
+  "Melissa - FMA": "Anime",
+  "Again - FMAB": "Anime",
+  "Kaze ni Fukarete - Kaguya-sama": "Anime",
+  "Konna Sekai - Akame ga Kill": "Anime",
+  "Tsuki Akari - Akame ga Kill": "Anime"
 };
 
 var infoList = []
