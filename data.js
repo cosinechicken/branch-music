@@ -147,11 +147,30 @@ var dict = {
   "1011": "Tanjiro no Uta - Demon Slayer",  // https://www.youtube.com/watch?v=bq7caidfUts
   "1012": "Colors - Code Geass",  // https://www.youtube.com/watch?v=G8CFuZ9MseQ
   "1013": "Continued Story - Code Geass", // https://www.youtube.com/watch?v=XHViAiVuDsA
-  "1014": "Melissa - FMA",  // https://www.youtube.com/watch?v=uMsOlhzPEfY
-  "1015": "Again - FMAB", // https://www.youtube.com/watch?v=B7uMdmCQabc
+  "1014": "Melissa - Fullmetal Alchemist",  // https://www.youtube.com/watch?v=uMsOlhzPEfY
+  "1015": "Again - Fullmetal Alchemist Brotherhood", // https://www.youtube.com/watch?v=B7uMdmCQabc
   "1016": "Kaze ni Fukarete - Kaguya-sama", // https://www.youtube.com/watch?v=RCgOP_3P2T4
   "1017": "Konna Sekai - Akame ga Kill",  // https://www.youtube.com/watch?v=6zvQYq0LDRQ
   "1018": "Tsuki Akari - Akame ga Kill",  // https://www.youtube.com/watch?v=VMM7E464Qtc
+  "1019": "Merry Go Round of Life - Howl's Moving Castle",  // https://www.youtube.com/watch?v=UwxatzcYf9Q
+  "1020": "Promise of the World - Howl's Moving Castle",  // https://www.youtube.com/watch?v=yuhOUeZHEBo
+  "1021": "One Summers' Day - Spirited Away", // https://www.youtube.com/watch?v=smn0HOvwoZ8
+  "1022": "Reprise - Spirited Away",  // https://www.youtube.com/watch?v=KgEQNlR4A6o
+  "1023": "Always With Me - Spirited Away", //
+  "1024": "A Town with an Ocean View - Kiki's Delivery Service",  // https://www.youtube.com/watch?v=fc_dscz6dm0
+  "1025": "Rouge no Dengon - Kiki's Delivery Service",  // https://www.youtube.com/watch?v=UJwtKY_iWkM
+  "1026": "If I've Been Enveloped in Tenderness - Kiki's Delivery Service", // https://www.youtube.com/watch?v=i8N2qhzfc5E
+  "1027": "Sparkle - Your Name",  // https://www.youtube.com/watch?v=-pHfPJGatgE
+  "1028": "Zen zen zense - Your Name",  // https://www.youtube.com/watch?v=n4o-i71Jz4E
+  "1029": "Sis Puella Magica - Madoka Magica",  // https://www.youtube.com/watch?v=bzlHPlq8hIs
+  "1030": "Elegy for Rem - Re Zero",  // https://www.youtube.com/watch?v=pFdyldbdZXA
+  "1031": "Wishing - Re Zero",  // https://www.youtube.com/watch?v=fV3Fu5csdcA
+  "1032": "Fukashigi no Carte - Aobuta",  // https://www.youtube.com/watch?v=K1PCl5D-IpU
+  "1033": "Is There Still Anything That Love Can Do - Weathering With You", // https://www.youtube.com/watch?v=J97ORP768HI
+  "1034": "Grand Escape - Weathering With You", // https://www.youtube.com/watch?v=YAXTn0E-Zgo
+  "1035": "Hacking to the Gate - Steins;Gate",  // https://www.youtube.com/watch?v=ZGM90Bo3zH0
+  "1036": "A Cruel Angel's Thesis - Neon Genesis Evangelion", // https://www.youtube.com/watch?v=k8ozVkIkr-g
+  "1037": "This Game - No Game No Life", // https://www.youtube.com/watch?v=4gerQu0ReY0
 };
 
 var categories = {
@@ -301,11 +320,30 @@ var categories = {
   "Tanjiro no Uta - Demon Slayer": "Anime",
   "Colors - Code Geass": "Anime",
   "Continued Story - Code Geass": "Anime",
-  "Melissa - FMA": "Anime",
-  "Again - FMAB": "Anime",
+  "Melissa - Fullmetal Alchemist": "Anime",
+  "Again - Fullmetal Alchemist Brotherhood": "Anime",
   "Kaze ni Fukarete - Kaguya-sama": "Anime",
   "Konna Sekai - Akame ga Kill": "Anime",
-  "Tsuki Akari - Akame ga Kill": "Anime"
+  "Tsuki Akari - Akame ga Kill": "Anime",
+  "Merry Go Round of Life - Howl's Moving Castle": "Anime",
+  "Promise of the World - Howl's Moving Castle": "Anime",
+  "One Summers' Day - Spirited Away": "Anime",
+  "Reprise - Spirited Away": "Anime",
+  "Always With Me - Spirited Away": "Anime",
+  "A Town with an Ocean View - Kiki's Delivery Service": "Anime",
+  "Rouge no Dengon - Kiki's Delivery Service": "Anime",
+  "If I've Been Enveloped in Tenderness - Kiki's Delivery Service": "Anime",
+  "Sparkle - Your Name": "Anime",
+  "Zen zen zense - Your Name": "Anime",
+  "Sis Puella Magica - Madoka Magica": "Anime",
+  "Elegy for Rem - Re Zero": "Anime",
+  "Wishing - Re Zero": "Anime",
+  "Fukashigi no Carte - Aobuta": "Anime",
+  "Is There Still Anything That Love Can Do - Weathering With You": "Anime",
+  "Grand Escape - Weathering With You": "Anime",
+  "Hacking to the Gate - Steins;Gate": "Anime",
+  "A Cruel Angel's Thesis - Neon Genesis Evangelion": "Anime",
+  "This Game - No Game No Life": "Anime",
 };
 
 var infoList = []
