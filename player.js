@@ -2,9 +2,14 @@ var loop = false;
 
 function randomize() {
     // Randomizes song being played
-    console.log(catInfoList.length)
     let index = Math.floor(Math.random() * catInfoList.length);
-    play(index);
+    // find the index in infolist
+    for (let i = 0; i < infoList.length; i++) {
+        if (infoList[i][0] === catInfoList[index][0]) {
+            play(i);
+            return;
+        }
+    }
 }
 function toggleAutoplay() {
     // Toggle autoplay button
