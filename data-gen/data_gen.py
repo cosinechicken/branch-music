@@ -1,4 +1,5 @@
 from contextlib import closing
+from unicodedata import category, name
 from PIL import Image, ImageFont, ImageDraw
 import subprocess
 from audiotsm import phasevocoder
@@ -36,6 +37,8 @@ def deletePath(s): # Dangerous! Watch out!
 
 
 def process_file(INPUT_FILE_NAME):
+    length_str = ""
+    volume_str = ""
     SAMPLE_RATE = 44100
     INPUT_FILE = "C:/Users/brand/Documents/GitHub/branch-music/Music/" + INPUT_FILE_NAME
 
@@ -90,8 +93,7 @@ def process_file(INPUT_FILE_NAME):
     with open("volume_data.txt", 'a') as file:
         file.write(INPUT_FILE_NAME + ": " + str(np.max(audioRMS)) + ", " + max_time_str + "\n")
     """
-    with open("volume_data.txt", 'a') as file:
-        file.write("\t\"" + INPUT_FILE_NAME[:-4] + "\": \"" + str(np.around(np.mean(audioRMS), decimals=2)) + "\",\n")
+    volume_str += ("\t\"" + INPUT_FILE_NAME[:-4] + "\": \"" + str(np.around(np.mean(audioRMS), decimals=2)) + "\",\n")
 
     second = len(audioRMS) / frameRate
     minute = int(second / 60)
@@ -104,27 +106,68 @@ def process_file(INPUT_FILE_NAME):
     if minute < 10:
         minute_str = "0" + minute_str
     max_time_str = minute_str + ":" + second_str
-    with open("length_data.txt", 'a') as file:
-        file.write("\t\"" + INPUT_FILE_NAME[:-4] + "\": \"" + max_time_str + "\",\n")
+    length_str += ("\t\"" + INPUT_FILE_NAME[:-4] + "\": \"" + max_time_str + "\",\n")
     # print("Loudest volume: " + str(np.max(audioRMS)))
     # print("Loudest time: " + max_time_str)
     deletePath(TEMP_FOLDER)  # Delete everything in TEMP_FOLDER
+    return volume_str, length_str
 
 directory = os.fsencode("C:/Users/brand/Documents/GitHub/branch-music/Music/")
-
-with open("volume_data.txt", 'w') as file:
-    file.write("")
-with open("length_data.txt", 'w') as file:
-    file.write("")
 
 total = 0
 for file in os.listdir(directory):
     total += 1
 
+# get the name and id string of the data file
+names_and_ids = ""
+names = []
+with open("data-gen/raw_data.txt", 'r') as file:
+    for line in file:
+        names_and_ids += ("\t" + line)
+        name = line.split(": ")[1].split(", ")[0]
+        names.append(name)
+
 count = 0
+volume_str = ""
+length_str = ""
+
+# for every video in the music folder compute the volume and length and build up the string
 for file in os.listdir(directory):
     count += 1
     filename = os.fsdecode(file)
     print("(" + str(count) + "/" + str(total) + ") Processing: " + filename)
-    process_file(filename)
+    temp_volume_str, temp_length_str = process_file(filename)
+    volume_str += temp_volume_str
+    length_str += temp_length_str
+
+with open("data.js", 'w') as file:
+    file.write("// A data file containing a dictionary sending IDs to song titles. \n// IDs are 4 digits, where first digit corresponds to type (e.g. classical, anime, etc.)\n")
+    file.write("var dict = {\n")
+    file.write(names_and_ids + "\n")
+    file.write("};\n\n")
+    file.write("var categories = {\n")
+    for name in names:
+        category_str = "\t"
+        if " - " in name:
+            category_str += (name + ": \"Anime\",\n" )
+        else:
+            category_str += (name + ": \"Classical\",\n" )
+        file.write(category_str)
+    file.write("};\n\n")
+    file.write("var volume = {\n")
+    file.write(volume_str + "\n")
+    file.write("};\n\n")
+    file.write("var length = {\n")
+    file.write(length_str + "\n")
+    file.write("};\n\n")
+    file.write("var infoList = []\n")
+    file.write("var catInfoList = []\n")
+    file.write("for (const [key, value] of Object.entries(dict)) {\n")
+    file.write("\tinfoList.push([key, value, categories[value], volume[value], length[value]]);\n")
+    file.write("\t// Default to classical\n")
+    file.write("\tif (categories[value] == \"Classical\") {\n")
+    file.write("\t\tcatInfoList.push([key, value, categories[value], volume[value], length[value]]);\n")
+    file.write("\t}\n")
+    file.write("}\n")
+
 
