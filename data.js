@@ -115,24 +115,29 @@ var dict = {
 	"0620": "Brahms Violin Concerto Mov. 1",  // https://www.youtube.com/watch?v=7C_U7eUbVd8
 	"0621": "Brahms Hungarian Dance No. 1", // https://www.youtube.com/watch?v=0egvi2CBrM4
 	"0622": "Brahms Hungarian Dance No. 5", // https://www.youtube.com/watch?v=Nzo3atXtm54
-	"0630": "Saint-Saens Introduction Rondo Capriccioso", // https://www.youtube.com/watch?v=Q0ajM7aL-Vc
-	"0631": "Saint-Saens The Swan", // https://www.youtube.com/watch?v=b44-5M4e9nI
-	"0640": "Mendelssohn Violin Concerto Mov. 1", // https://www.youtube.com/watch?v=Pmj7nCRYNs4
-	"0641": "Mendelssohn Piano Concerto No. 1 Mov. 3",  // https://www.youtube.com/watch?v=2GGx8TRWFVA
-	"0650": "Haydn Serenade Op. 3 No. 5", // https://www.youtube.com/watch?v=okHgNrqpW3E
-	"0651": "Rossini Barber of Seville",  // https://www.youtube.com/watch?v=OloXRhesab0
-	"0652": "Glinka The Lark",  // https://www.youtube.com/watch?v=cxlf-ZmE8JI
-	"0653": "Poulenc Improvisation No. 15", // https://www.youtube.com/watch?v=mmxsoi1Xeug
-	"0654": "Kreisler Liebesleid",  // https://www.youtube.com/watch?v=ofQfRMpm7Ks
-	"0655": "Mozart Symphony No. 41 Mov. 4",  // https://www.youtube.com/watch?v=C6EOb86YdIs
-	"0656": "Ravel Pavane for a Dead Princess", // https://www.youtube.com/watch?v=GKkeDqJBlK8
-	"0657": "Gliere Harp Concerto", // https://www.youtube.com/watch?v=t7Pai-BASak
-	"0658": "Moszkowski Piano Concerto Mov. 1", // https://www.youtube.com/watch?v=eh3l8I-JT4Q
-	"0660": "Strauss Fledermaus Overture",  // https://www.youtube.com/watch?v=QROR4LioU-8
-	"0661": "Strauss Blue Danube",  // https://www.youtube.com/watch?v=_CTYymbbEL4
-	"0662": "Shostakovich Waltz No. 2", // https://www.youtube.com/watch?v=phBThlPTBEg
-	"0670": "Sarasate Zigeunerweisen",  // https://www.youtube.com/watch?v=5ysiQMbe_do
-	"0671": "Massenet Meditation from Thais", // https://www.youtube.com/watch?v=7QtGOWemQhY
+	"0630": "Scriabin Sonata No. 2 Mov. 1", // https://www.youtube.com/watch?v=7XGyWcuYVrg
+	"0631": "Scriabin Etude Op. 8 No. 12",  // https://www.youtube.com/watch?v=_dP8FMZr2sA
+	"0632": "Scriabin Etude Op. 42 No. 5",  // https://www.youtube.com/watch?v=xudZ3J4EeoQ
+	"0640": "Saint-Saens Introduction Rondo Capriccioso", // https://www.youtube.com/watch?v=Q0ajM7aL-Vc
+	"0641": "Saint-Saens The Swan", // https://www.youtube.com/watch?v=b44-5M4e9nI
+	"0650": "Mendelssohn Violin Concerto Mov. 1", // https://www.youtube.com/watch?v=Pmj7nCRYNs4
+	"0651": "Mendelssohn Piano Concerto No. 1 Mov. 3",  // https://www.youtube.com/watch?v=2GGx8TRWFVA
+	"0660": "Haydn Serenade Op. 3 No. 5", // https://www.youtube.com/watch?v=okHgNrqpW3E
+	"0661": "Rossini Barber of Seville",  // https://www.youtube.com/watch?v=OloXRhesab0
+	"0662": "Glinka The Lark",  // https://www.youtube.com/watch?v=cxlf-ZmE8JI
+	"0663": "Poulenc Improvisation No. 15", // https://www.youtube.com/watch?v=mmxsoi1Xeug
+	"0664": "Kreisler Liebesleid",  // https://www.youtube.com/watch?v=ofQfRMpm7Ks
+	"0665": "Mozart Symphony No. 41 Mov. 4",  // https://www.youtube.com/watch?v=C6EOb86YdIs
+	"0666": "Ravel Pavane for a Dead Princess", // https://www.youtube.com/watch?v=GKkeDqJBlK8
+	"0667": "Gliere Harp Concerto", // https://www.youtube.com/watch?v=t7Pai-BASak
+	"0668": "Moszkowski Piano Concerto Mov. 1", // https://www.youtube.com/watch?v=eh3l8I-JT4Q
+	"0670": "Strauss Fledermaus Overture",  // https://www.youtube.com/watch?v=QROR4LioU-8
+	"0671": "Strauss Blue Danube",  // https://www.youtube.com/watch?v=_CTYymbbEL4
+	"0672": "Shostakovich Waltz No. 2", // https://www.youtube.com/watch?v=phBThlPTBEg
+	"0680": "Sarasate Zigeunerweisen",  // https://www.youtube.com/watch?v=5ysiQMbe_do
+	"0681": "Massenet Meditation from Thais", // https://www.youtube.com/watch?v=7QtGOWemQhY
+	"0682": "Rimsky-Korsakov Procession of the Nobles", // https://www.youtube.com/watch?v=nBdKlNsuPd4
+	"0683": "Offenbach Galop Infernal", // https://www.youtube.com/watch?v=okQRnHvw3is
 	"1000": "Hikaru Nara - Your Lie in April",  // https://www.youtube.com/watch?v=cWtgGTCAjYY 
 	"1001": "Nanairo Symphony - Your Lie in April", // https://www.youtube.com/watch?v=lqRcl2k2xS8
 	"1002": "Kirameki - Your Lie in April", // https://www.youtube.com/watch?v=iI_sbL-xhgw
@@ -171,6 +176,8 @@ var dict = {
 	"1035": "Hacking to the Gate - Steins;Gate",  // https://www.youtube.com/watch?v=ZGM90Bo3zH0
 	"1036": "A Cruel Angel's Thesis - Neon Genesis Evangelion", // https://www.youtube.com/watch?v=k8ozVkIkr-g
 	"1037": "This Game - No Game No Life", // https://www.youtube.com/watch?v=4gerQu0ReY0
+	"1038": "Renai Circulation - Bakemonogatari", // https://www.youtube.com/watch?v=uKxyLmbOc0Q
+	"1039": "GIRI GIRI - Kaguya-sama",  // https://www.youtube.com/watch?v=vptdHEUZN10
 };
 
 var categories = {
@@ -288,6 +295,9 @@ var categories = {
 	"Brahms Violin Concerto Mov. 1": "Classical",
 	"Brahms Hungarian Dance No. 1": "Classical",
 	"Brahms Hungarian Dance No. 5": "Classical",
+	"Scriabin Sonata No. 2 Mov. 1": "Classical",
+	"Scriabin Etude Op. 8 No. 12": "Classical",
+	"Scriabin Etude Op. 42 No. 5": "Classical",
 	"Saint-Saens Introduction Rondo Capriccioso": "Classical",
 	"Saint-Saens The Swan": "Classical",
 	"Mendelssohn Violin Concerto Mov. 1": "Classical",
@@ -306,6 +316,8 @@ var categories = {
 	"Shostakovich Waltz No. 2": "Classical",
 	"Sarasate Zigeunerweisen": "Classical",
 	"Massenet Meditation from Thais": "Classical",
+	"Rimsky-Korsakov Procession of the Nobles": "Classical",
+	"Offenbach Galop Infernal": "Classical",
 	"Hikaru Nara - Your Lie in April": "Anime",
 	"Nanairo Symphony - Your Lie in April": "Anime",
 	"Kirameki - Your Lie in April": "Anime",
@@ -344,6 +356,8 @@ var categories = {
 	"Hacking to the Gate - Steins;Gate": "Anime",
 	"A Cruel Angel's Thesis - Neon Genesis Evangelion": "Anime",
 	"This Game - No Game No Life": "Anime",
+	"Renai Circulation - Bakemonogatari": "Anime",
+	"GIRI GIRI - Kaguya-sama": "Anime",
 };
 
 var volume = {
@@ -440,6 +454,7 @@ var volume = {
 	"Debussy Reverie": "54.89",
 	"Elegy for Rem - Re Zero": "68.12",
 	"Fukashigi no Carte - Aobuta": "78.96",
+	"GIRI GIRI - Kaguya-sama": "77.18",
 	"Gliere Harp Concerto": "63.45",
 	"Glinka The Lark": "52.54",
 	"Grand Escape - Weathering With You": "70.34",
@@ -472,6 +487,7 @@ var volume = {
 	"My Soul Your Beats - Angel Beats": "75.69",
 	"Nagisa - Clannad": "66.19",
 	"Nanairo Symphony - Your Lie in April": "80.47",
+	"Offenbach Galop Infernal": "72.86",
 	"One Summers' Day - Spirited Away": "61.14",
 	"Orange - Your Lie in April": "78.1",
 	"Paganini Cantabile": "74.21",
@@ -488,7 +504,9 @@ var volume = {
 	"Rachmaninoff Piano Concerto No. 2 Mov. 3": "61.2",
 	"Rachmaninoff Symphony No. 2 Mov. 3": "62.7",
 	"Ravel Pavane for a Dead Princess": "62.59",
+	"Renai Circulation - Bakemonogatari": "79.01",
 	"Reprise - Spirited Away": "65.02",
+	"Rimsky-Korsakov Procession of the Nobles": "64.45",
 	"Roaring Tides - Clannad": "73.83",
 	"Rossini Barber of Seville": "57.03",
 	"Rouge no Dengon - Kiki's Delivery Service": "68.02",
@@ -501,6 +519,9 @@ var volume = {
 	"Schubert Serenade": "63.18",
 	"Schubert Symphony No. 8 Mov. 1": "63.83",
 	"Schubert Symphony No. 8 Mov. 2": "60.65",
+	"Scriabin Etude Op. 42 No. 5": "65.77",
+	"Scriabin Etude Op. 8 No. 12": "72.7",
+	"Scriabin Sonata No. 2 Mov. 1": "52.71",
 	"Secret Base - Anohana": "70.38",
 	"Shostakovich Waltz No. 2": "70.02",
 	"Sis Puella Magica - Madoka Magica": "69.78",
@@ -614,6 +635,7 @@ var length = {
 	"Debussy Reverie": "04:13",
 	"Elegy for Rem - Re Zero": "06:59",
 	"Fukashigi no Carte - Aobuta": "03:54",
+	"GIRI GIRI - Kaguya-sama": "04:18",
 	"Gliere Harp Concerto": "28:38",
 	"Glinka The Lark": "05:15",
 	"Grand Escape - Weathering With You": "05:33",
@@ -646,6 +668,7 @@ var length = {
 	"My Soul Your Beats - Angel Beats": "04:32",
 	"Nagisa - Clannad": "04:08",
 	"Nanairo Symphony - Your Lie in April": "04:28",
+	"Offenbach Galop Infernal": "05:17",
 	"One Summers' Day - Spirited Away": "04:51",
 	"Orange - Your Lie in April": "05:46",
 	"Paganini Cantabile": "03:51",
@@ -662,7 +685,9 @@ var length = {
 	"Rachmaninoff Piano Concerto No. 2 Mov. 3": "11:33",
 	"Rachmaninoff Symphony No. 2 Mov. 3": "15:28",
 	"Ravel Pavane for a Dead Princess": "06:40",
+	"Renai Circulation - Bakemonogatari": "04:13",
 	"Reprise - Spirited Away": "04:41",
+	"Rimsky-Korsakov Procession of the Nobles": "04:28",
 	"Roaring Tides - Clannad": "02:34",
 	"Rossini Barber of Seville": "07:42",
 	"Rouge no Dengon - Kiki's Delivery Service": "03:01",
@@ -675,6 +700,9 @@ var length = {
 	"Schubert Serenade": "03:41",
 	"Schubert Symphony No. 8 Mov. 1": "14:50",
 	"Schubert Symphony No. 8 Mov. 2": "13:22",
+	"Scriabin Etude Op. 42 No. 5": "03:06",
+	"Scriabin Etude Op. 8 No. 12": "02:10",
+	"Scriabin Sonata No. 2 Mov. 1": "10:04",
 	"Secret Base - Anohana": "05:44",
 	"Shostakovich Waltz No. 2": "03:39",
 	"Sis Puella Magica - Madoka Magica": "02:45",
