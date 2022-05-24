@@ -544,7 +544,7 @@ var volume = {
 	"Tchaikovsky Waltz of the Flowers": "63.94",
 	"This Game - No Game No Life": "79.37",
 	"Tsuki Akari - Akame ga Kill": "61.42",
-	"Uso - Fullmetal Alchemist Brotherhood": "79.28",
+	"Uso - Fullmetal Alchemist Brotherhood": "78.88",
 	"Wishing - Re Zero": "74.68",
 	"Zen zen zense - Your Name": "78.26",
 
@@ -728,7 +728,7 @@ var length = {
 	"Tchaikovsky Waltz of the Flowers": "07:04",
 	"This Game - No Game No Life": "04:40",
 	"Tsuki Akari - Akame ga Kill": "01:30",
-	"Uso - Fullmetal Alchemist Brotherhood": "03:19",
+	"Uso - Fullmetal Alchemist Brotherhood": "03:22",
 	"Wishing - Re Zero": "05:55",
 	"Zen zen zense - Your Name": "04:44",
 
