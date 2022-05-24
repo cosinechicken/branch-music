@@ -47,11 +47,12 @@
 "0067": "Chopin Polonaise Op. 53",  // https://www.youtube.com/watch?v=8QT7ITv9Ecs
 "0068": "Chopin Polonaise-Fantaisie Op. 61",  // https://www.youtube.com/watch?v=177qJoCI9Zw
 "0070": "Chopin Impromptu No. 1 Op. 29",  // https://www.youtube.com/watch?v=177qJoCI9Zw
-"0071": "Chopin Impromptu No. 3 Op. 51",  // https://www.youtube.com/watch?v=4Qw9dwmyths
-"0072": "Chopin Fantaisie Impromptu Op. 66",  // https://www.youtube.com/watch?v=H4v4Ipl_UJI
-"0073": "Chopin Scherzo No. 2 Op. 31",  // https://www.youtube.com/watch?v=z_MwPdr7WXQ
-"0074": "Chopin Scherzo No. 4 Op. 54",  // https://www.youtube.com/watch?v=Bd_9hgpo1u4
-"0075": "Chopin Berceuse Op. 57",  // https://www.youtube.com/watch?v=TGXXLaO0Ke4
+"0071": "Chopin Impromptu No. 2 Op. 36",  // https://www.youtube.com/watch?v=DpcBEpiLDWA
+"0072": "Chopin Impromptu No. 3 Op. 51",  // https://www.youtube.com/watch?v=4Qw9dwmyths
+"0073": "Chopin Fantaisie Impromptu Op. 66",  // https://www.youtube.com/watch?v=H4v4Ipl_UJI
+"0074": "Chopin Scherzo No. 2 Op. 31",  // https://www.youtube.com/watch?v=z_MwPdr7WXQ
+"0075": "Chopin Scherzo No. 4 Op. 54",  // https://www.youtube.com/watch?v=Bd_9hgpo1u4
+"0076": "Chopin Berceuse Op. 57",  // https://www.youtube.com/watch?v=TGXXLaO0Ke4
 "0080": "Chopin Sonata No. 1 Op. 4 Mov. 1", // https://www.youtube.com/watch?v=vL-NDDI4BfE
 "0081": "Chopin Sonata No. 1 Op. 4 Mov. 4", // https://www.youtube.com/watch?v=vL-NDDI4BfE
 "0082": "Chopin Sonata No. 2 Op. 35 Mov. 1",  // https://www.youtube.com/watch?v=VUk3_qTTVg4
@@ -175,3 +176,5 @@
 "1037": "This Game - No Game No Life", // https://www.youtube.com/watch?v=4gerQu0ReY0
 "1038": "Renai Circulation - Bakemonogatari", // https://www.youtube.com/watch?v=uKxyLmbOc0Q
 "1039": "GIRI GIRI - Kaguya-sama",  // https://www.youtube.com/watch?v=vptdHEUZN10
+"1040": "Super Riser! - Macross", // https://www.youtube.com/watch?v=srnyVw-OR0g
+"1041": "Uso - Fullmetal Alchemist Brotherhood",  // https://www.youtube.com/watch?v=sKu3LjLW4CQ

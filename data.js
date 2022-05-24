@@ -50,11 +50,12 @@ var dict = {
 	"0067": "Chopin Polonaise Op. 53",  // https://www.youtube.com/watch?v=8QT7ITv9Ecs
 	"0068": "Chopin Polonaise-Fantaisie Op. 61",  // https://www.youtube.com/watch?v=177qJoCI9Zw
 	"0070": "Chopin Impromptu No. 1 Op. 29",  // https://www.youtube.com/watch?v=177qJoCI9Zw
-	"0071": "Chopin Impromptu No. 3 Op. 51",  // https://www.youtube.com/watch?v=4Qw9dwmyths
-	"0072": "Chopin Fantaisie Impromptu Op. 66",  // https://www.youtube.com/watch?v=H4v4Ipl_UJI
-	"0073": "Chopin Scherzo No. 2 Op. 31",  // https://www.youtube.com/watch?v=z_MwPdr7WXQ
-	"0074": "Chopin Scherzo No. 4 Op. 54",  // https://www.youtube.com/watch?v=Bd_9hgpo1u4
-	"0075": "Chopin Berceuse Op. 57",  // https://www.youtube.com/watch?v=TGXXLaO0Ke4
+	"0071": "Chopin Impromptu No. 2 Op. 36",  // https://www.youtube.com/watch?v=DpcBEpiLDWA
+	"0072": "Chopin Impromptu No. 3 Op. 51",  // https://www.youtube.com/watch?v=4Qw9dwmyths
+	"0073": "Chopin Fantaisie Impromptu Op. 66",  // https://www.youtube.com/watch?v=H4v4Ipl_UJI
+	"0074": "Chopin Scherzo No. 2 Op. 31",  // https://www.youtube.com/watch?v=z_MwPdr7WXQ
+	"0075": "Chopin Scherzo No. 4 Op. 54",  // https://www.youtube.com/watch?v=Bd_9hgpo1u4
+	"0076": "Chopin Berceuse Op. 57",  // https://www.youtube.com/watch?v=TGXXLaO0Ke4
 	"0080": "Chopin Sonata No. 1 Op. 4 Mov. 1", // https://www.youtube.com/watch?v=vL-NDDI4BfE
 	"0081": "Chopin Sonata No. 1 Op. 4 Mov. 4", // https://www.youtube.com/watch?v=vL-NDDI4BfE
 	"0082": "Chopin Sonata No. 2 Op. 35 Mov. 1",  // https://www.youtube.com/watch?v=VUk3_qTTVg4
@@ -178,6 +179,8 @@ var dict = {
 	"1037": "This Game - No Game No Life", // https://www.youtube.com/watch?v=4gerQu0ReY0
 	"1038": "Renai Circulation - Bakemonogatari", // https://www.youtube.com/watch?v=uKxyLmbOc0Q
 	"1039": "GIRI GIRI - Kaguya-sama",  // https://www.youtube.com/watch?v=vptdHEUZN10
+	"1040": "Super Riser! - Macross", // https://www.youtube.com/watch?v=srnyVw-OR0g
+	"1041": "Uso - Fullmetal Alchemist Brotherhood",  // https://www.youtube.com/watch?v=sKu3LjLW4CQ
 };
 
 var categories = {
@@ -230,6 +233,7 @@ var categories = {
 	"Chopin Polonaise Op. 53": "Classical",
 	"Chopin Polonaise-Fantaisie Op. 61": "Classical",
 	"Chopin Impromptu No. 1 Op. 29": "Classical",
+	"Chopin Impromptu No. 2 Op. 36": "Classical",
 	"Chopin Impromptu No. 3 Op. 51": "Classical",
 	"Chopin Fantaisie Impromptu Op. 66": "Classical",
 	"Chopin Scherzo No. 2 Op. 31": "Classical",
@@ -358,6 +362,8 @@ var categories = {
 	"This Game - No Game No Life": "Anime",
 	"Renai Circulation - Bakemonogatari": "Anime",
 	"GIRI GIRI - Kaguya-sama": "Anime",
+	"Super Riser! - Macross": "Anime",
+	"Uso - Fullmetal Alchemist Brotherhood": "Anime",
 };
 
 var volume = {
@@ -406,6 +412,7 @@ var volume = {
 	"Chopin Grand Valse Brillante Op. 34 No. 1": "65.52",
 	"Chopin Grand Valse Op. 42": "63.55",
 	"Chopin Impromptu No. 1 Op. 29": "55.52",
+	"Chopin Impromptu No. 2 Op. 36": "53.33",
 	"Chopin Impromptu No. 3 Op. 51": "60.67",
 	"Chopin Nocturne Op. 15 No. 2": "55.57",
 	"Chopin Nocturne Op. 27 No. 2": "56.57",
@@ -528,6 +535,7 @@ var volume = {
 	"Sparkle - Your Name": "76.55",
 	"Strauss Blue Danube": "56.9",
 	"Strauss Fledermaus Overture": "57.78",
+	"Super Riser! - Macross": "75.27",
 	"Tanjiro no Uta - Demon Slayer": "70.37",
 	"Tchaikovsky Sleeping Beauty Waltz": "65.75",
 	"Tchaikovsky Swan Lake Waltz": "62.18",
@@ -536,6 +544,7 @@ var volume = {
 	"Tchaikovsky Waltz of the Flowers": "63.94",
 	"This Game - No Game No Life": "79.37",
 	"Tsuki Akari - Akame ga Kill": "61.42",
+	"Uso - Fullmetal Alchemist Brotherhood": "79.28",
 	"Wishing - Re Zero": "74.68",
 	"Zen zen zense - Your Name": "78.26",
 
@@ -587,6 +596,7 @@ var length = {
 	"Chopin Grand Valse Brillante Op. 34 No. 1": "05:04",
 	"Chopin Grand Valse Op. 42": "03:24",
 	"Chopin Impromptu No. 1 Op. 29": "03:59",
+	"Chopin Impromptu No. 2 Op. 36": "05:54",
 	"Chopin Impromptu No. 3 Op. 51": "04:31",
 	"Chopin Nocturne Op. 15 No. 2": "03:53",
 	"Chopin Nocturne Op. 27 No. 2": "06:07",
@@ -709,6 +719,7 @@ var length = {
 	"Sparkle - Your Name": "06:45",
 	"Strauss Blue Danube": "10:51",
 	"Strauss Fledermaus Overture": "08:49",
+	"Super Riser! - Macross": "03:47",
 	"Tanjiro no Uta - Demon Slayer": "05:26",
 	"Tchaikovsky Sleeping Beauty Waltz": "04:23",
 	"Tchaikovsky Swan Lake Waltz": "07:09",
@@ -717,6 +728,7 @@ var length = {
 	"Tchaikovsky Waltz of the Flowers": "07:04",
 	"This Game - No Game No Life": "04:40",
 	"Tsuki Akari - Akame ga Kill": "01:30",
+	"Uso - Fullmetal Alchemist Brotherhood": "03:19",
 	"Wishing - Re Zero": "05:55",
 	"Zen zen zense - Your Name": "04:44",
 
