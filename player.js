@@ -15,13 +15,21 @@ function toggleAutoplay() {
     // Toggle autoplay button
     loop = !loop;
     console.log("AutoPlay toggled");
+    if (loop) {
+        document.getElementById("audio").loop = true;
+    } else {
+        document.getElementById("audio").loop = false;
+    }
+    
 }
 function audioEnded() {
     // Run this function when the audio ends
     if (!loop) {
+        document.getElementById("audio2").play();
         randomize();
     }
-    document.getElementById("audio").play();
+    
+    
 }
 function playByID() {
     let id = document.getElementById("idInput").value;
@@ -45,6 +53,11 @@ function play(index) {
     document.getElementById("current").textContent = "Playing: " + infoList[index][1]
         + " (ID: " + infoList[index][0] + ")";
     document.getElementById("volume").textContent = "Volume: " + infoList[index][3];
+    document.getElementById("audio2").src = "Music/" + infoList[0][1] + ".mp4";
+    document.getElementById("audio2").pause();
+    console.log(document.getElementById("audio2")); 
+    // document.getElementById("audio2").volume = 0;
+    document.getElementById("audio").load();
     document.getElementById("audio").play();
     // Update the category
     document.getElementById("categorySelect").value = categories[infoList[index][1]];

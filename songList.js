@@ -4,7 +4,9 @@ console.log(table);
 generateTable(table, infoList);
 
 function generateTable(table, data) {
+    count = 0
     for (let element of data) {
+        count += 1
         console.log(element);
         let row = table.insertRow(-1);
         for (key in element) {
@@ -13,4 +15,5 @@ function generateTable(table, data) {
             cell.appendChild(text);
         }
     }
+    document.getElementById("numSongs").textContent = ("Number of songs: " + count);
 }

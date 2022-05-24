@@ -36,3 +36,10 @@ table.sortable tbody tr:nth-child(2n+1) td {
 table.sortable tbody tr:nth-child(2n) td {
   background: #EEEEEE;
 }
+.container2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.info-text {
+  font-size: 20px;
+}

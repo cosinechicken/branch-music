@@ -21,8 +21,13 @@
     </div>
     <br>
     <div>
-    <audio id="audio" controls="controls" style="width:800px" onended="audioEnded()" playsinline>
+    <audio id="audio" controls="controls" style="width:800px" onended="audioEnded()" playsinline preload="auto" autoplay>
         <source src = "" id="audioSource" type="audio/mp4">></source>
+        Your browser does not support the audio format.
+    </audio>
+    <br/>
+    <audio id="audio2" controls="controls" style="width:800px" playsinline preload="auto" autoplay>
+        <source src = "" id="audioSource2" type="audio/mp4">></source>
         Your browser does not support the audio format.
     </audio>
     </div>
