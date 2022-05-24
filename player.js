@@ -56,12 +56,11 @@ function play(index) {
     document.getElementById("audio2").src = "Music/" + infoList[0][1] + ".mp4";
     document.getElementById("audio2").pause();
     console.log(document.getElementById("audio2")); 
-    // document.getElementById("audio2").volume = 0;
-    document.getElementById("audio").load();
-    document.getElementById("audio").play();
     // Update the category
     document.getElementById("categorySelect").value = categories[infoList[index][1]];
     changeCategory();
+    document.getElementById("audio").load();
+    document.getElementById("audio").play();
 }
 function changeCategory() {
     // Called when category select is changed, updates the list of songs which can be played
