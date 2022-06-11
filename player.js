@@ -33,17 +33,15 @@ function audioEnded() {
 }
 function playByID() {
     let id = document.getElementById("idInput").value;
-    document.getElementById("idInput").value = "";
-    console.log("Now playing: " + id);
     // Run this function to play a specific song based on id
     for (let i = 0; i < infoList.length; i++) {
         if (id === infoList[i][0]) {
+            document.getElementById("idInput").value = "";
             play(i);
+            console.log("Now playing: " + id);
             return;
         }
     }
-    document.getElementById("current").textContent = "Playing: undefined"
-    document.getElementById("audio").src = "";
 }
 function play(index) {
     // We found a match
@@ -71,5 +69,5 @@ function changeCategory() {
         if (categories[value] == category) {
           catInfoList.push([key, value, categories[value]]);
         }
-    }  
+    }
 }
