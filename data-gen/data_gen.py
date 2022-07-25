@@ -16,7 +16,7 @@ from datetime import datetime
 import sys
 import cv2
 
-def createPath(s):
+def createPath(s):  
     #assert (not os.path.exists(s)), "The filepath "+s+" already exists. Don't want to overwrite it. Aborting."
     try:
         os.mkdir(s)

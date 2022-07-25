@@ -143,7 +143,7 @@ var dict = {
 	"1001": "Nanairo Symphony - Your Lie in April", // https://www.youtube.com/watch?v=lqRcl2k2xS8
 	"1002": "Kirameki - Your Lie in April", // https://www.youtube.com/watch?v=iI_sbL-xhgw
 	"1003": "Orange - Your Lie in April", // https://www.youtube.com/watch?v=JdSpuTi9d8A
-	"1004": "Nagisa - Clannad", // https://www.youtube.com/watch?v=hNrXDrs352g
+	"1004": "Dango Daikazoku - Clannad",  // https://www.youtube.com/watch?v=0NF1lPiMXkY
 	"1005": "Roaring Tides - Clannad",  // https://www.youtube.com/watch?v=vdk_76z38bA
 	"1006": "My Soul Your Beats - Angel Beats", // https://www.youtube.com/watch?v=zIFV8UUs1-c
 	"1007": "Brave Song - Angel Beats", // https://www.youtube.com/watch?v=xtcvM3s1I1s
@@ -181,6 +181,25 @@ var dict = {
 	"1039": "GIRI GIRI - Kaguya-sama",  // https://www.youtube.com/watch?v=vptdHEUZN10
 	"1040": "Super Riser! - Macross", // https://www.youtube.com/watch?v=srnyVw-OR0g
 	"1041": "Uso - Fullmetal Alchemist Brotherhood",  // https://www.youtube.com/watch?v=sKu3LjLW4CQ
+	"1042": "Believe in You - Re Zero", // https://www.youtube.com/watch?v=MnytTcodsPk
+	"1043": "Guren no Yumiya - Attack on Titan",  // https://www.youtube.com/watch?v=8OkpRK2_gVs
+	"1044": "Jiyuu no Tsubasa - Attack on Titan", // https://www.youtube.com/watch?v=PbWFpzi8C94
+	"1045": "Shinzou wo Sasageyo - Attack on Titan",  // https://www.youtube.com/watch?v=XULerl4wvfo
+	"1046": "Red Swan - Attack on Titan", // https://www.youtube.com/watch?v=MWSR17vEVBw
+	"1047": "A Beautiful Cruel World - Attack on Titan",  // https://www.youtube.com/watch?v=pO5PLjDUkWw
+	"1048": "Styx Helix - Re Zero", // https://www.youtube.com/watch?v=HdQCWXh3XXU
+	"1049": "Door - Re Zero", // https://www.youtube.com/watch?v=5c_jTxvutlw
+	"1050": "Isabella's Lullaby - The Promised Neverland",  // https://www.youtube.com/watch?v=rTJjtSP-ORc
+	"1051": "Sirius - Kill la Kill",  // https://www.youtube.com/watch?v=sfPoZKmyBEw
+	"1052": "Ambiguous - Kill la Kill",  // https://www.youtube.com/watch?v=qaLeO-2Fytg
+	"1053": "Gomen Ne Iiko Ja Irarenai - Kill la Kill", // https://www.youtube.com/watch?v=AkkK7IakkbI
+	"1054": "Gurenge - Demon Slayer", // https://www.youtube.com/watch?v=XjvaJH8aRc0
+	"1055": "From the Edge - Demon Slayer", // https://www.youtube.com/watch?v=qz9bpL7o9Uo
+	"1056": "Alumina - Death Note", // https://www.youtube.com/watch?v=fhgwSyRmAb8
+	"1057": "Connect - Madoka Magica",  // https://www.youtube.com/watch?v=ADIP3Um32Gc
+	"1058": "Fuwa Fuwa Time - K-On",  // https://www.youtube.com/watch?v=jL8p9vteR5g
+	"1059": "Chiisana Boukensha - Konosuba",  // https://www.youtube.com/watch?v=NevwXF6ZdtI
+	"1060": "Wanna Go Home - Konosuba", // https://www.youtube.com/watch?v=MQZV4SnshYs
 };
 
 var categories = {
@@ -326,7 +345,7 @@ var categories = {
 	"Nanairo Symphony - Your Lie in April": "Anime",
 	"Kirameki - Your Lie in April": "Anime",
 	"Orange - Your Lie in April": "Anime",
-	"Nagisa - Clannad": "Anime",
+	"Dango Daikazoku - Clannad": "Anime",
 	"Roaring Tides - Clannad": "Anime",
 	"My Soul Your Beats - Angel Beats": "Anime",
 	"Brave Song - Angel Beats": "Anime",
@@ -364,13 +383,35 @@ var categories = {
 	"GIRI GIRI - Kaguya-sama": "Anime",
 	"Super Riser! - Macross": "Anime",
 	"Uso - Fullmetal Alchemist Brotherhood": "Anime",
+	"Believe in You - Re Zero": "Anime",
+	"Guren no Yumiya - Attack on Titan": "Anime",
+	"Jiyuu no Tsubasa - Attack on Titan": "Anime",
+	"Shinzou wo Sasageyo - Attack on Titan": "Anime",
+	"Red Swan - Attack on Titan": "Anime",
+	"A Beautiful Cruel World - Attack on Titan": "Anime",
+	"Styx Helix - Re Zero": "Anime",
+	"Door - Re Zero": "Anime",
+	"Isabella's Lullaby - The Promised Neverland": "Anime",
+	"Sirius - Kill la Kill": "Anime",
+	"Ambiguous - Kill la Kill": "Anime",
+	"Gomen Ne Iiko Ja Irarenai - Kill la Kill": "Anime",
+	"Gurenge - Demon Slayer": "Anime",
+	"From the Edge - Demon Slayer": "Anime",
+	"Alumina - Death Note": "Anime",
+	"Connect - Madoka Magica": "Anime",
+	"Fuwa Fuwa Time - K-On": "Anime",
+	"Chiisana Boukensha - Konosuba": "Anime",
+	"Wanna Go Home - Konosuba": "Anime",
 };
 
 var volume = {
+	"A Beautiful Cruel World - Attack on Titan": "75.1",
 	"A Cruel Angel's Thesis - Neon Genesis Evangelion": "73.55",
 	"A Town with an Ocean View - Kiki's Delivery Service": "67.02",
 	"Again - Fullmetal Alchemist Brotherhood": "78.61",
+	"Alumina - Death Note": "78.27",
 	"Always With Me - Spirited Away": "61.92",
+	"Ambiguous - Kill la Kill": "66.66",
 	"Aoi Shiori - Anohana": "79.28",
 	"Beethoven Sonata No. 17 Mov. 1": "54.34",
 	"Beethoven Sonata No. 17 Mov. 3": "64.42",
@@ -382,10 +423,12 @@ var volume = {
 	"Beethoven Symphony No. 3 Mov. 1": "62.16",
 	"Beethoven Violin Sonata No. 5 Mov. 1": "53.69",
 	"Beethoven Violin Sonata No. 9 Mov. 1": "62.05",
+	"Believe in You - Re Zero": "76.74",
 	"Brahms Hungarian Dance No. 1": "65.24",
 	"Brahms Hungarian Dance No. 5": "59.63",
 	"Brahms Violin Concerto Mov. 1": "65.69",
 	"Brave Song - Angel Beats": "73.91",
+	"Chiisana Boukensha - Konosuba": "76.52",
 	"Chopin Andante Spianato Op. 22 No. 1": "56.42",
 	"Chopin Ballade No. 1 Op. 23": "65.24",
 	"Chopin Ballade No. 2 Op. 38": "64.75",
@@ -454,23 +497,33 @@ var volume = {
 	"Chopin Waltz Op. 70 No. 1": "67.29",
 	"Chopin Waltz Op. 70 No. 3": "67.31",
 	"Colors - Code Geass": "68.12",
+	"Connect - Madoka Magica": "77.16",
 	"Continued Story - Code Geass": "75.52",
+	"Dango Daikazoku - Clannad": "68.39",
 	"Debussy Arabesque No. 1": "61.87",
 	"Debussy Arabesque No. 2": "59.15",
 	"Debussy Clair de Lune": "55.93",
 	"Debussy Reverie": "54.89",
+	"Door - Re Zero": "76.03",
 	"Elegy for Rem - Re Zero": "68.12",
+	"From the Edge - Demon Slayer": "77.87",
 	"Fukashigi no Carte - Aobuta": "78.96",
+	"Fuwa Fuwa Time - K-On": "78.23",
 	"GIRI GIRI - Kaguya-sama": "77.18",
 	"Gliere Harp Concerto": "63.45",
 	"Glinka The Lark": "52.54",
+	"Gomen Ne Iiko Ja Irarenai - Kill la Kill": "75.89",
 	"Grand Escape - Weathering With You": "70.34",
+	"Guren no Yumiya - Attack on Titan": "63.56",
+	"Gurenge - Demon Slayer": "78.67",
 	"Hacking to the Gate - Steins;Gate": "79.94",
 	"Haydn Serenade Op. 3 No. 5": "67.34",
 	"Hikaru Nara - Your Lie in April": "74.66",
 	"Ichiban no Takaramono - Angel Beats": "72.99",
 	"If I've Been Enveloped in Tenderness - Kiki's Delivery Service": "74.5",
 	"Is There Still Anything That Love Can Do - Weathering With You": "74.41",
+	"Isabella's Lullaby - The Promised Neverland": "73.71",
+	"Jiyuu no Tsubasa - Attack on Titan": "68.02",
 	"Kaze ni Fukarete - Kaguya-sama": "77.28",
 	"Kirameki - Your Lie in April": "78.43",
 	"Konna Sekai - Akame ga Kill": "74.81",
@@ -492,7 +545,6 @@ var volume = {
 	"Moszkowski Piano Concerto Mov. 1": "64.09",
 	"Mozart Symphony No. 41 Mov. 4": "65.27",
 	"My Soul Your Beats - Angel Beats": "75.69",
-	"Nagisa - Clannad": "66.19",
 	"Nanairo Symphony - Your Lie in April": "80.47",
 	"Offenbach Galop Infernal": "72.86",
 	"One Summers' Day - Spirited Away": "61.14",
@@ -511,6 +563,7 @@ var volume = {
 	"Rachmaninoff Piano Concerto No. 2 Mov. 3": "61.2",
 	"Rachmaninoff Symphony No. 2 Mov. 3": "62.7",
 	"Ravel Pavane for a Dead Princess": "62.59",
+	"Red Swan - Attack on Titan": "75.59",
 	"Renai Circulation - Bakemonogatari": "79.01",
 	"Reprise - Spirited Away": "65.02",
 	"Rimsky-Korsakov Procession of the Nobles": "64.45",
@@ -530,11 +583,14 @@ var volume = {
 	"Scriabin Etude Op. 8 No. 12": "72.7",
 	"Scriabin Sonata No. 2 Mov. 1": "52.71",
 	"Secret Base - Anohana": "70.38",
+	"Shinzou wo Sasageyo - Attack on Titan": "66.16",
 	"Shostakovich Waltz No. 2": "70.02",
+	"Sirius - Kill la Kill": "80.06",
 	"Sis Puella Magica - Madoka Magica": "69.78",
 	"Sparkle - Your Name": "76.55",
 	"Strauss Blue Danube": "56.9",
 	"Strauss Fledermaus Overture": "57.78",
+	"Styx Helix - Re Zero": "77.06",
 	"Super Riser! - Macross": "75.27",
 	"Tanjiro no Uta - Demon Slayer": "70.37",
 	"Tchaikovsky Sleeping Beauty Waltz": "65.75",
@@ -545,16 +601,20 @@ var volume = {
 	"This Game - No Game No Life": "79.37",
 	"Tsuki Akari - Akame ga Kill": "61.42",
 	"Uso - Fullmetal Alchemist Brotherhood": "78.88",
+	"Wanna Go Home - Konosuba": "78.2",
 	"Wishing - Re Zero": "74.68",
 	"Zen zen zense - Your Name": "78.26",
 
 };
 
 var length = {
+	"A Beautiful Cruel World - Attack on Titan": "04:52",
 	"A Cruel Angel's Thesis - Neon Genesis Evangelion": "04:02",
 	"A Town with an Ocean View - Kiki's Delivery Service": "04:00",
 	"Again - Fullmetal Alchemist Brotherhood": "04:11",
+	"Alumina - Death Note": "05:01",
 	"Always With Me - Spirited Away": "03:33",
+	"Ambiguous - Kill la Kill": "01:31",
 	"Aoi Shiori - Anohana": "05:34",
 	"Beethoven Sonata No. 17 Mov. 1": "07:52",
 	"Beethoven Sonata No. 17 Mov. 3": "06:07",
@@ -566,10 +626,12 @@ var length = {
 	"Beethoven Symphony No. 3 Mov. 1": "13:27",
 	"Beethoven Violin Sonata No. 5 Mov. 1": "09:04",
 	"Beethoven Violin Sonata No. 9 Mov. 1": "11:37",
+	"Believe in You - Re Zero": "04:38",
 	"Brahms Hungarian Dance No. 1": "03:21",
 	"Brahms Hungarian Dance No. 5": "03:11",
 	"Brahms Violin Concerto Mov. 1": "23:34",
 	"Brave Song - Angel Beats": "05:19",
+	"Chiisana Boukensha - Konosuba": "03:15",
 	"Chopin Andante Spianato Op. 22 No. 1": "04:27",
 	"Chopin Ballade No. 1 Op. 23": "09:11",
 	"Chopin Ballade No. 2 Op. 38": "07:10",
@@ -638,23 +700,33 @@ var length = {
 	"Chopin Waltz Op. 70 No. 1": "01:38",
 	"Chopin Waltz Op. 70 No. 3": "02:32",
 	"Colors - Code Geass": "01:29",
+	"Connect - Madoka Magica": "04:27",
 	"Continued Story - Code Geass": "05:08",
+	"Dango Daikazoku - Clannad": "04:32",
 	"Debussy Arabesque No. 1": "04:19",
 	"Debussy Arabesque No. 2": "03:11",
 	"Debussy Clair de Lune": "04:53",
 	"Debussy Reverie": "04:13",
+	"Door - Re Zero": "04:54",
 	"Elegy for Rem - Re Zero": "06:59",
+	"From the Edge - Demon Slayer": "04:33",
 	"Fukashigi no Carte - Aobuta": "03:54",
+	"Fuwa Fuwa Time - K-On": "03:55",
 	"GIRI GIRI - Kaguya-sama": "04:18",
 	"Gliere Harp Concerto": "28:38",
 	"Glinka The Lark": "05:15",
+	"Gomen Ne Iiko Ja Irarenai - Kill la Kill": "04:40",
 	"Grand Escape - Weathering With You": "05:33",
+	"Guren no Yumiya - Attack on Titan": "01:32",
+	"Gurenge - Demon Slayer": "03:55",
 	"Hacking to the Gate - Steins;Gate": "04:13",
 	"Haydn Serenade Op. 3 No. 5": "04:34",
 	"Hikaru Nara - Your Lie in April": "04:08",
 	"Ichiban no Takaramono - Angel Beats": "05:59",
 	"If I've Been Enveloped in Tenderness - Kiki's Delivery Service": "03:10",
 	"Is There Still Anything That Love Can Do - Weathering With You": "06:44",
+	"Isabella's Lullaby - The Promised Neverland": "04:51",
+	"Jiyuu no Tsubasa - Attack on Titan": "01:29",
 	"Kaze ni Fukarete - Kaguya-sama": "04:30",
 	"Kirameki - Your Lie in April": "04:38",
 	"Konna Sekai - Akame ga Kill": "04:14",
@@ -676,7 +748,6 @@ var length = {
 	"Moszkowski Piano Concerto Mov. 1": "12:54",
 	"Mozart Symphony No. 41 Mov. 4": "08:44",
 	"My Soul Your Beats - Angel Beats": "04:32",
-	"Nagisa - Clannad": "04:08",
 	"Nanairo Symphony - Your Lie in April": "04:28",
 	"Offenbach Galop Infernal": "05:17",
 	"One Summers' Day - Spirited Away": "04:51",
@@ -695,6 +766,7 @@ var length = {
 	"Rachmaninoff Piano Concerto No. 2 Mov. 3": "11:33",
 	"Rachmaninoff Symphony No. 2 Mov. 3": "15:28",
 	"Ravel Pavane for a Dead Princess": "06:40",
+	"Red Swan - Attack on Titan": "01:30",
 	"Renai Circulation - Bakemonogatari": "04:13",
 	"Reprise - Spirited Away": "04:41",
 	"Rimsky-Korsakov Procession of the Nobles": "04:28",
@@ -714,11 +786,14 @@ var length = {
 	"Scriabin Etude Op. 8 No. 12": "02:10",
 	"Scriabin Sonata No. 2 Mov. 1": "10:04",
 	"Secret Base - Anohana": "05:44",
+	"Shinzou wo Sasageyo - Attack on Titan": "01:29",
 	"Shostakovich Waltz No. 2": "03:39",
+	"Sirius - Kill la Kill": "04:20",
 	"Sis Puella Magica - Madoka Magica": "02:45",
 	"Sparkle - Your Name": "06:45",
 	"Strauss Blue Danube": "10:51",
 	"Strauss Fledermaus Overture": "08:49",
+	"Styx Helix - Re Zero": "04:46",
 	"Super Riser! - Macross": "03:47",
 	"Tanjiro no Uta - Demon Slayer": "05:26",
 	"Tchaikovsky Sleeping Beauty Waltz": "04:23",
@@ -729,6 +804,7 @@ var length = {
 	"This Game - No Game No Life": "04:40",
 	"Tsuki Akari - Akame ga Kill": "01:30",
 	"Uso - Fullmetal Alchemist Brotherhood": "03:22",
+	"Wanna Go Home - Konosuba": "03:17",
 	"Wishing - Re Zero": "05:55",
 	"Zen zen zense - Your Name": "04:44",
 
