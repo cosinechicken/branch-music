@@ -45,13 +45,13 @@ function playByID() {
 }
 function play(index) {
     // We found a match
-    let srcString = "Music/" + infoList[index][1] + ".mp4";
+    let srcString = "Music/" + infoList[index][1] + ".mp3";
     console.log(srcString);
     document.getElementById("audio").src = srcString;
     document.getElementById("current").textContent = "Playing: " + infoList[index][1]
         + " (ID: " + infoList[index][0] + ")";
     document.getElementById("volume").textContent = "Volume: " + infoList[index][3];
-    document.getElementById("audio2").src = "Music/" + infoList[0][1] + ".mp4";
+    document.getElementById("audio2").src = "Music/" + infoList[0][1] + ".mp3";
     document.getElementById("audio2").pause();
     console.log(document.getElementById("audio2")); 
     // Update the category

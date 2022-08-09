@@ -16,6 +16,12 @@ from datetime import datetime
 import sys
 import cv2
 
+# Returns largest absolute value of any element in s (not necessarily 1D array)
+def getMaxVolume(s):
+    maxv = float(np.max(s))
+    minv = float(np.min(s))
+    return max(maxv,-minv)
+
 def createPath(s):  
     #assert (not os.path.exists(s)), "The filepath "+s+" already exists. Don't want to overwrite it. Aborting."
     try:
@@ -35,12 +41,11 @@ def deletePath(s): # Dangerous! Watch out!
         print ("Deletion of the directory %s failed" % s)
         print(OSError)
 
-
 def process_file(INPUT_FILE_NAME):
     length_str = ""
     volume_str = ""
     SAMPLE_RATE = 44100
-    INPUT_FILE = "C:/Users/brand/Documents/GitHub/branch-music/Music/" + INPUT_FILE_NAME
+    INPUT_FILE = os.path.join(directory, INPUT_FILE_NAME)
 
     video = cv2.VideoCapture(INPUT_FILE)
     frameRate = video.get(cv2.CAP_PROP_FPS)
@@ -74,11 +79,15 @@ def process_file(INPUT_FILE_NAME):
         end = min(int((i+1)*samplesPerFrame), audioSampleCount)     # End audio-frame of video-frame i
         audiochunks = audioData[start:end].astype(float)            # Array of audio from start to end audio-frame of video-frame i
         temp = np.mean(np.square(audiochunks))
-        temp = np.maximum(temp, 1)
-        audioRMS[i] = 20*np.log10(np.sqrt(temp))
+        temp = np.maximum(temp, 1)  
+        audioRMS[i] = np.sqrt(temp)
 
     np.set_printoptions(threshold=sys.maxsize)
-    audioRMS = np.maximum(audioRMS, 30)
+    audioRMS = np.maximum(audioRMS, 40)
+    volume = 20*np.log10(np.sqrt(np.mean(audioRMS**2)))
+
+    maxAudioVolume = getMaxVolume(audioData)
+    print(maxAudioVolume)
 
     """
     second = np.argmax(audioRMS) / frameRate
@@ -93,9 +102,10 @@ def process_file(INPUT_FILE_NAME):
     with open("volume_data.txt", 'a') as file:
         file.write(INPUT_FILE_NAME + ": " + str(np.max(audioRMS)) + ", " + max_time_str + "\n")
     """
-    volume_str += ("\t\"" + INPUT_FILE_NAME[:-4] + "\": \"" + str(np.around(np.mean(audioRMS), decimals=2)) + "\",\n")
+    volume_str += ("\t\"" + INPUT_FILE_NAME[:-4] + "\": \"" + str(np.around(volume, decimals=2)) + "\",\n")
 
     second = len(audioRMS) / frameRate
+    total_length[0] += second
     minute = int(second / 60)
     second -= minute * 60
     second = int(second)
@@ -112,9 +122,10 @@ def process_file(INPUT_FILE_NAME):
     deletePath(TEMP_FOLDER)  # Delete everything in TEMP_FOLDER
     return volume_str, length_str
 
-directory = os.fsencode("C:/Users/brand/Documents/GitHub/branch-music/Music/")
+directory = "C:/Users/brand/Documents/GitHub/branch-music/Music"
 
 total = 0
+total_length = [0]
 for file in os.listdir(directory):
     total += 1
 
@@ -169,5 +180,7 @@ with open("data.js", 'w') as file:
     file.write("\t\tcatInfoList.push([key, value, categories[value], volume[value], length[value]]);\n")
     file.write("\t}\n")
     file.write("}\n")
+    file.write("\n")
+    file.write("var totalLength = " + str(total_length[0]) + "\n")
 
 
