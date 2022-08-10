@@ -197,3 +197,14 @@
 "1058": "Fuwa Fuwa Time - K-On",  // https://www.youtube.com/watch?v=jL8p9vteR5g
 "1059": "Chiisana Boukensha - Konosuba",  // https://www.youtube.com/watch?v=NevwXF6ZdtI
 "1060": "Wanna Go Home - Konosuba", // https://www.youtube.com/watch?v=MQZV4SnshYs
+"1061": "Misa Theme B - Death Note",  // https://www.youtube.com/watch?v=0dahZOlHClE
+"1062": "Reflection - Fullmetal Alchemist", // https://www.youtube.com/watch?v=3WBo7aY3oc4
+"1063": "The Intrepid - Fullmetal Alchemist Brotherhood", // https://www.youtube.com/watch?v=iYDQMZMwT8g
+"1064": "Longing for Sunbeams - Re Zero", // https://www.youtube.com/watch?v=LwV6UJTHej4
+"1065": "Touch - Touch",  // https://www.youtube.com/watch?v=4klawrwXpD4
+"1066": "Bara wa Utsukushiku Chiru - Rose of Versailles", // https://www.youtube.com/watch?v=has-Ru1lGTM
+"1067": "God Knows - Haruhi", // https://www.youtube.com/watch?v=RxFQeIniK1w
+"1068": "Only My Railgun - Certain Scientific Railgun", // https://www.youtube.com/watch?v=UmnQ2fEoXUI
+"1069": "Moonlight Densetsu - Sailor Moon", // https://www.youtube.com/watch?v=3bBpiHJm3t0 
+"1070": "Toki wo Kizamu Uta - Clannad After Story",  // https://www.youtube.com/watch?v=PozVlhR20TE
+"1071": "Mata Ashita - Madoka Magica",  // https://www.youtube.com/watch?v=4Pdghq3xbwE

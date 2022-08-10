@@ -200,6 +200,17 @@ var dict = {
 	"1058": "Fuwa Fuwa Time - K-On",  // https://www.youtube.com/watch?v=jL8p9vteR5g
 	"1059": "Chiisana Boukensha - Konosuba",  // https://www.youtube.com/watch?v=NevwXF6ZdtI
 	"1060": "Wanna Go Home - Konosuba", // https://www.youtube.com/watch?v=MQZV4SnshYs
+	"1061": "Misa Theme B - Death Note",  // https://www.youtube.com/watch?v=0dahZOlHClE
+	"1062": "Reflection - Fullmetal Alchemist", // https://www.youtube.com/watch?v=3WBo7aY3oc4
+	"1063": "The Intrepid - Fullmetal Alchemist Brotherhood", // https://www.youtube.com/watch?v=iYDQMZMwT8g
+	"1064": "Longing for Sunbeams - Re Zero", // https://www.youtube.com/watch?v=LwV6UJTHej4
+	"1065": "Touch - Touch",  // https://www.youtube.com/watch?v=4klawrwXpD4
+	"1066": "Bara wa Utsukushiku Chiru - Rose of Versailles", // https://www.youtube.com/watch?v=has-Ru1lGTM
+	"1067": "God Knows - Haruhi", // https://www.youtube.com/watch?v=RxFQeIniK1w
+	"1068": "Only My Railgun - Certain Scientific Railgun", // https://www.youtube.com/watch?v=UmnQ2fEoXUI
+	"1069": "Moonlight Densetsu - Sailor Moon", // https://www.youtube.com/watch?v=3bBpiHJm3t0 
+	"1070": "Toki wo Kizamu Uta - Clannad After Story",  // https://www.youtube.com/watch?v=PozVlhR20TE
+	"1071": "Mata Ashita - Madoka Magica",  // https://www.youtube.com/watch?v=4Pdghq3xbwE
 };
 
 var categories = {
@@ -402,6 +413,17 @@ var categories = {
 	"Fuwa Fuwa Time - K-On": "Anime",
 	"Chiisana Boukensha - Konosuba": "Anime",
 	"Wanna Go Home - Konosuba": "Anime",
+	"Misa Theme B - Death Note": "Anime",
+	"Reflection - Fullmetal Alchemist": "Anime",
+	"The Intrepid - Fullmetal Alchemist Brotherhood": "Anime",
+	"Longing for Sunbeams - Re Zero": "Anime",
+	"Touch - Touch": "Anime",
+	"Bara wa Utsukushiku Chiru - Rose of Versailles": "Anime",
+	"God Knows - Haruhi": "Anime",
+	"Only My Railgun - Certain Scientific Railgun": "Anime",
+	"Moonlight Densetsu - Sailor Moon": "Anime",
+	"Toki wo Kizamu Uta - Clannad After Story": "Anime",
+	"Mata Ashita - Madoka Magica": "Anime",
 };
 
 var volume = {
@@ -413,6 +435,7 @@ var volume = {
 	"Always With Me - Spirited Away": "60.98",
 	"Ambiguous - Kill la Kill": "60.99",
 	"Aoi Shiori - Anohana": "61.0",
+	"Bara wa Utsukushiku Chiru - Rose of Versailles": "60.99",
 	"Beethoven Sonata No. 17 Mov. 1": "61.0",
 	"Beethoven Sonata No. 17 Mov. 3": "61.0",
 	"Beethoven Sonata No. 23 Mov. 1": "60.99",
@@ -512,6 +535,7 @@ var volume = {
 	"GIRI GIRI - Kaguya-sama": "61.0",
 	"Gliere Harp Concerto": "61.0",
 	"Glinka The Lark": "60.99",
+	"God Knows - Haruhi": "60.99",
 	"Gomen Ne Iiko Ja Irarenai - Kill la Kill": "61.0",
 	"Grand Escape - Weathering With You": "60.99",
 	"Guren no Yumiya - Attack on Titan": "60.96",
@@ -537,17 +561,22 @@ var volume = {
 	"Liszt Sonata in B Minor": "61.0",
 	"Liszt Un Sospiro": "61.0",
 	"Liszt-Alabieff Le Rossignol": "60.99",
+	"Longing for Sunbeams - Re Zero": "61.0",
 	"Massenet Meditation from Thais": "60.99",
+	"Mata Ashita - Madoka Magica": "61.0",
 	"Melissa - Fullmetal Alchemist": "60.98",
 	"Mendelssohn Piano Concerto No. 1 Mov. 3": "60.99",
 	"Mendelssohn Violin Concerto Mov. 1": "61.0",
 	"Merry Go Round of Life - Howl's Moving Castle": "61.0",
+	"Misa Theme B - Death Note": "60.99",
+	"Moonlight Densetsu - Sailor Moon": "60.98",
 	"Moszkowski Piano Concerto Mov. 1": "61.0",
 	"Mozart Symphony No. 41 Mov. 4": "60.99",
 	"My Soul Your Beats - Angel Beats": "60.99",
 	"Nanairo Symphony - Your Lie in April": "61.0",
 	"Offenbach Galop Infernal": "60.99",
 	"One Summers' Day - Spirited Away": "60.99",
+	"Only My Railgun - Certain Scientific Railgun": "60.99",
 	"Orange - Your Lie in April": "61.0",
 	"Paganini Cantabile": "60.99",
 	"Paganini Violin Concerto No. 1 Mov. 1": "61.0",
@@ -564,6 +593,7 @@ var volume = {
 	"Rachmaninoff Symphony No. 2 Mov. 3": "61.0",
 	"Ravel Pavane for a Dead Princess": "60.99",
 	"Red Swan - Attack on Titan": "60.95",
+	"Reflection - Fullmetal Alchemist": "61.0",
 	"Renai Circulation - Bakemonogatari": "60.99",
 	"Reprise - Spirited Away": "61.0",
 	"Rimsky-Korsakov Procession of the Nobles": "61.0",
@@ -598,7 +628,10 @@ var volume = {
 	"Tchaikovsky Violin Concerto Mov. 1": "61.0",
 	"Tchaikovsky Violin Concerto Mov. 3": "61.0",
 	"Tchaikovsky Waltz of the Flowers": "60.99",
+	"The Intrepid - Fullmetal Alchemist Brotherhood": "60.99",
 	"This Game - No Game No Life": "61.0",
+	"Toki wo Kizamu Uta - Clannad After Story": "60.99",
+	"Touch - Touch": "60.99",
 	"Tsuki Akari - Akame ga Kill": "60.96",
 	"Uso - Fullmetal Alchemist Brotherhood": "60.99",
 	"Wanna Go Home - Konosuba": "60.99",
@@ -616,6 +649,7 @@ var length = {
 	"Always With Me - Spirited Away": "03:34",
 	"Ambiguous - Kill la Kill": "01:32",
 	"Aoi Shiori - Anohana": "05:35",
+	"Bara wa Utsukushiku Chiru - Rose of Versailles": "03:20",
 	"Beethoven Sonata No. 17 Mov. 1": "07:53",
 	"Beethoven Sonata No. 17 Mov. 3": "06:08",
 	"Beethoven Sonata No. 23 Mov. 1": "09:44",
@@ -715,6 +749,7 @@ var length = {
 	"GIRI GIRI - Kaguya-sama": "04:19",
 	"Gliere Harp Concerto": "28:39",
 	"Glinka The Lark": "05:16",
+	"God Knows - Haruhi": "04:38",
 	"Gomen Ne Iiko Ja Irarenai - Kill la Kill": "04:41",
 	"Grand Escape - Weathering With You": "05:34",
 	"Guren no Yumiya - Attack on Titan": "01:33",
@@ -740,17 +775,22 @@ var length = {
 	"Liszt Sonata in B Minor": "30:24",
 	"Liszt Un Sospiro": "05:54",
 	"Liszt-Alabieff Le Rossignol": "03:15",
+	"Longing for Sunbeams - Re Zero": "02:25",
 	"Massenet Meditation from Thais": "04:53",
+	"Mata Ashita - Madoka Magica": "01:28",
 	"Melissa - Fullmetal Alchemist": "01:41",
 	"Mendelssohn Piano Concerto No. 1 Mov. 3": "05:57",
 	"Mendelssohn Violin Concerto Mov. 1": "12:46",
 	"Merry Go Round of Life - Howl's Moving Castle": "05:08",
+	"Misa Theme B - Death Note": "02:29",
+	"Moonlight Densetsu - Sailor Moon": "02:52",
 	"Moszkowski Piano Concerto Mov. 1": "12:55",
 	"Mozart Symphony No. 41 Mov. 4": "08:45",
 	"My Soul Your Beats - Angel Beats": "04:33",
 	"Nanairo Symphony - Your Lie in April": "04:29",
 	"Offenbach Galop Infernal": "05:18",
 	"One Summers' Day - Spirited Away": "04:52",
+	"Only My Railgun - Certain Scientific Railgun": "04:12",
 	"Orange - Your Lie in April": "05:47",
 	"Paganini Cantabile": "03:52",
 	"Paganini Violin Concerto No. 1 Mov. 1": "21:33",
@@ -767,6 +807,7 @@ var length = {
 	"Rachmaninoff Symphony No. 2 Mov. 3": "15:29",
 	"Ravel Pavane for a Dead Princess": "06:41",
 	"Red Swan - Attack on Titan": "01:31",
+	"Reflection - Fullmetal Alchemist": "04:19",
 	"Renai Circulation - Bakemonogatari": "04:14",
 	"Reprise - Spirited Away": "04:42",
 	"Rimsky-Korsakov Procession of the Nobles": "04:29",
@@ -801,7 +842,10 @@ var length = {
 	"Tchaikovsky Violin Concerto Mov. 1": "18:33",
 	"Tchaikovsky Violin Concerto Mov. 3": "09:52",
 	"Tchaikovsky Waltz of the Flowers": "07:05",
+	"The Intrepid - Fullmetal Alchemist Brotherhood": "02:15",
 	"This Game - No Game No Life": "04:41",
+	"Toki wo Kizamu Uta - Clannad After Story": "01:30",
+	"Touch - Touch": "03:11",
 	"Tsuki Akari - Akame ga Kill": "01:31",
 	"Uso - Fullmetal Alchemist Brotherhood": "03:23",
 	"Wanna Go Home - Konosuba": "03:18",
@@ -820,4 +864,4 @@ for (const [key, value] of Object.entries(dict)) {
 	}
 }
 
-var totalLength = 74322.0
+var totalLength = 76281.0
