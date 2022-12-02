@@ -136,6 +136,7 @@
 "0681": "Massenet Meditation from Thais", // https://www.youtube.com/watch?v=7QtGOWemQhY
 "0682": "Rimsky-Korsakov Procession of the Nobles", // https://www.youtube.com/watch?v=nBdKlNsuPd4
 "0683": "Offenbach Galop Infernal", // https://www.youtube.com/watch?v=okQRnHvw3is
+"0684": "Wieniawski Violin Concerto 2", // https://www.youtube.com/watch?v=T7KNd6W5OXo
 "1000": "Hikaru Nara - Your Lie in April",  // https://www.youtube.com/watch?v=cWtgGTCAjYY 
 "1001": "Nanairo Symphony - Your Lie in April", // https://www.youtube.com/watch?v=lqRcl2k2xS8
 "1002": "Kirameki - Your Lie in April", // https://www.youtube.com/watch?v=iI_sbL-xhgw
@@ -208,3 +209,6 @@
 "1069": "Moonlight Densetsu - Sailor Moon", // https://www.youtube.com/watch?v=3bBpiHJm3t0 
 "1070": "Toki wo Kizamu Uta - Clannad After Story",  // https://www.youtube.com/watch?v=PozVlhR20TE
 "1071": "Mata Ashita - Madoka Magica",  // https://www.youtube.com/watch?v=4Pdghq3xbwE
+"1072": "Rain - Fullmetal Alchemist Brotherhood", // https://www.youtube.com/watch?v=dBL3PXI_jFo
+"1073": "Racing into the Night",  // https://www.youtube.com/watch?v=by4SYYWlhEs
+"1074": "Name of Love - Attack on Titan", // https://www.youtube.com/watch?v=LnCDBel2JV0
