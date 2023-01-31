@@ -55,7 +55,7 @@ var dict = {
 	"0073": "Chopin Fantaisie Impromptu Op. 66",  // https://www.youtube.com/watch?v=H4v4Ipl_UJI
 	"0074": "Chopin Scherzo No. 2 Op. 31",  // https://www.youtube.com/watch?v=z_MwPdr7WXQ
 	"0075": "Chopin Scherzo No. 3 Op. 39",  // https://www.youtube.com/watch?v=rjmUbZ3Aumw
-	0076": "Chopin Scherzo No. 4 Op. 54",  // https://www.youtube.com/watch?v=Bd_9hgpo1u4
+	"0076": "Chopin Scherzo No. 4 Op. 54",  // https://www.youtube.com/watch?v=Bd_9hgpo1u4
 	"0077": "Chopin Berceuse Op. 57",  // https://www.youtube.com/watch?v=TGXXLaO0Ke4
 	"0080": "Chopin Sonata No. 1 Op. 4 Mov. 1", // https://www.youtube.com/watch?v=vL-NDDI4BfE
 	"0081": "Chopin Sonata No. 1 Op. 4 Mov. 4", // https://www.youtube.com/watch?v=vL-NDDI4BfE
@@ -216,9 +216,9 @@ var dict = {
 	"1072": "Rain - Fullmetal Alchemist Brotherhood", // https://www.youtube.com/watch?v=dBL3PXI_jFo
 	"1073": "Racing into the Night",  // https://www.youtube.com/watch?v=by4SYYWlhEs
 	"1074": "Name of Love - Attack on Titan", // https://www.youtube.com/watch?v=LnCDBel2JV0
-	"1075": "Ashitaka and San - Princess Mononoke",	// https://www.youtube.com/watch?v=faf98cNY8A8
-	"1076": "Days of Dash - Pet Girl of Sakurasou",	// https://www.youtube.com/watch?v=xwtd8-yrBZs
-	"1077": "Bye Bye Yesterday - Assassination Classroom",	// https://www.youtube.com/watch?v=1RJt1rwNzoo
+	"1075": "Ashitaka and San - Princess Mononoke", // https://www.youtube.com/watch?v=faf98cNY8A8
+	"1076": "Days of Dash - Pet Girl of Sakurasou", // https://www.youtube.com/watch?v=xwtd8-yrBZs
+	"1077": "Bye Bye Yesterday - Assassination Classroom",  // https://www.youtube.com/watch?v=1RJt1rwNzoo
 };
 
 var categories = {
@@ -437,11 +437,9 @@ var categories = {
 	"Rain - Fullmetal Alchemist Brotherhood": "Anime",
 	"Racing into the Night": "Classical",
 	"Name of Love - Attack on Titan": "Anime",
-	"Ashitaka and San - Princess Mononoke",	// https://www.youtube.com/watch?v=faf98cNY8A8
-: "Anime",
-	"Days of Dash - Pet Girl of Sakurasou",	// https://www.youtube.com/watch?v=xwtd8-yrBZs
-: "Anime",
-	"Bye Bye Yesterday - Assassination Classroom",	// https://www.youtube.com/watch?v=1RJt1rwNzoo: "Anime",
+	"Ashitaka and San - Princess Mononoke": "Anime",
+	"Days of Dash - Pet Girl of Sakurasou": "Anime",
+	"Bye Bye Yesterday - Assassination Classroom": "Anime",
 };
 
 var volume = {
