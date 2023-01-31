@@ -55,7 +55,7 @@ var dict = {
 	"0073": "Chopin Fantaisie Impromptu Op. 66",  // https://www.youtube.com/watch?v=H4v4Ipl_UJI
 	"0074": "Chopin Scherzo No. 2 Op. 31",  // https://www.youtube.com/watch?v=z_MwPdr7WXQ
 	"0075": "Chopin Scherzo No. 3 Op. 39",  // https://www.youtube.com/watch?v=rjmUbZ3Aumw
-	"0076": "Chopin Scherzo No. 4 Op. 54",  // https://www.youtube.com/watch?v=Bd_9hgpo1u4
+	0076": "Chopin Scherzo No. 4 Op. 54",  // https://www.youtube.com/watch?v=Bd_9hgpo1u4
 	"0077": "Chopin Berceuse Op. 57",  // https://www.youtube.com/watch?v=TGXXLaO0Ke4
 	"0080": "Chopin Sonata No. 1 Op. 4 Mov. 1", // https://www.youtube.com/watch?v=vL-NDDI4BfE
 	"0081": "Chopin Sonata No. 1 Op. 4 Mov. 4", // https://www.youtube.com/watch?v=vL-NDDI4BfE
@@ -140,7 +140,7 @@ var dict = {
 	"0681": "Massenet Meditation from Thais", // https://www.youtube.com/watch?v=7QtGOWemQhY
 	"0682": "Rimsky-Korsakov Procession of the Nobles", // https://www.youtube.com/watch?v=nBdKlNsuPd4
 	"0683": "Offenbach Galop Infernal", // https://www.youtube.com/watch?v=okQRnHvw3is
-	"0684": "Wieniawski Violin Concerto 2", // https://www.youtube.com/watch?v=T7KNd6W5OXo&ab_channel=WieniawskiSociety
+	"0684": "Wieniawski Violin Concerto 2", // https://www.youtube.com/watch?v=T7KNd6W5OXo
 	"1000": "Hikaru Nara - Your Lie in April",  // https://www.youtube.com/watch?v=cWtgGTCAjYY 
 	"1001": "Nanairo Symphony - Your Lie in April", // https://www.youtube.com/watch?v=lqRcl2k2xS8
 	"1002": "Kirameki - Your Lie in April", // https://www.youtube.com/watch?v=iI_sbL-xhgw
@@ -216,6 +216,9 @@ var dict = {
 	"1072": "Rain - Fullmetal Alchemist Brotherhood", // https://www.youtube.com/watch?v=dBL3PXI_jFo
 	"1073": "Racing into the Night",  // https://www.youtube.com/watch?v=by4SYYWlhEs
 	"1074": "Name of Love - Attack on Titan", // https://www.youtube.com/watch?v=LnCDBel2JV0
+	"1075": "Ashitaka and San - Princess Mononoke",	// https://www.youtube.com/watch?v=faf98cNY8A8
+	"1076": "Days of Dash - Pet Girl of Sakurasou",	// https://www.youtube.com/watch?v=xwtd8-yrBZs
+	"1077": "Bye Bye Yesterday - Assassination Classroom",	// https://www.youtube.com/watch?v=1RJt1rwNzoo
 };
 
 var categories = {
@@ -272,6 +275,7 @@ var categories = {
 	"Chopin Impromptu No. 3 Op. 51": "Classical",
 	"Chopin Fantaisie Impromptu Op. 66": "Classical",
 	"Chopin Scherzo No. 2 Op. 31": "Classical",
+	"Chopin Scherzo No. 3 Op. 39": "Classical",
 	"Chopin Scherzo No. 4 Op. 54": "Classical",
 	"Chopin Berceuse Op. 57": "Classical",
 	"Chopin Sonata No. 1 Op. 4 Mov. 1": "Classical",
@@ -433,6 +437,11 @@ var categories = {
 	"Rain - Fullmetal Alchemist Brotherhood": "Anime",
 	"Racing into the Night": "Classical",
 	"Name of Love - Attack on Titan": "Anime",
+	"Ashitaka and San - Princess Mononoke",	// https://www.youtube.com/watch?v=faf98cNY8A8
+: "Anime",
+	"Days of Dash - Pet Girl of Sakurasou",	// https://www.youtube.com/watch?v=xwtd8-yrBZs
+: "Anime",
+	"Bye Bye Yesterday - Assassination Classroom",	// https://www.youtube.com/watch?v=1RJt1rwNzoo: "Anime",
 };
 
 var volume = {
@@ -444,6 +453,7 @@ var volume = {
 	"Always With Me - Spirited Away": "64.32",
 	"Ambiguous - Kill la Kill": "68.48",
 	"Aoi Shiori - Anohana": "80.02",
+	"Ashitaka and San - Princess Mononoke": "71.62",
 	"Bara wa Utsukushiku Chiru - Rose of Versailles": "72.82",
 	"Beethoven Sonata No. 17 Mov. 1": "65.91",
 	"Beethoven Sonata No. 17 Mov. 3": "67.59",
@@ -460,6 +470,7 @@ var volume = {
 	"Brahms Hungarian Dance No. 5": "65.11",
 	"Brahms Violin Concerto Mov. 1": "69.12",
 	"Brave Song - Angel Beats": "76.1",
+	"Bye Bye Yesterday - Assassination Classroom": "80.66",
 	"Chiisana Boukensha - Konosuba": "78.3",
 	"Chopin Andante Spianato Op. 22 No. 1": "61.69",
 	"Chopin Ballade No. 1 Op. 23": "70.52",
@@ -515,6 +526,7 @@ var volume = {
 	"Chopin Prelude Op. 28 No. 24": "67.59",
 	"Chopin Prelude Op. 28 No. 8": "67.52",
 	"Chopin Scherzo No. 2 Op. 31": "70.78",
+	"Chopin Scherzo No. 3 Op. 39": "67.67",
 	"Chopin Scherzo No. 4 Op. 54": "64.44",
 	"Chopin Sonata No. 1 Op. 4 Mov. 1": "65.61",
 	"Chopin Sonata No. 1 Op. 4 Mov. 4": "66.37",
@@ -532,6 +544,7 @@ var volume = {
 	"Connect - Madoka Magica": "78.61",
 	"Continued Story - Code Geass": "76.84",
 	"Dango Daikazoku - Clannad": "73.81",
+	"Days of Dash - Pet Girl of Sakurasou": "80.65",
 	"Debussy Arabesque No. 1": "66.08",
 	"Debussy Arabesque No. 2": "63.37",
 	"Debussy Clair de Lune": "63.96",
@@ -662,6 +675,7 @@ var length = {
 	"Always With Me - Spirited Away": "03:33",
 	"Ambiguous - Kill la Kill": "01:31",
 	"Aoi Shiori - Anohana": "05:34",
+	"Ashitaka and San - Princess Mononoke": "04:18",
 	"Bara wa Utsukushiku Chiru - Rose of Versailles": "03:19",
 	"Beethoven Sonata No. 17 Mov. 1": "07:52",
 	"Beethoven Sonata No. 17 Mov. 3": "06:07",
@@ -678,6 +692,7 @@ var length = {
 	"Brahms Hungarian Dance No. 5": "03:11",
 	"Brahms Violin Concerto Mov. 1": "23:34",
 	"Brave Song - Angel Beats": "05:19",
+	"Bye Bye Yesterday - Assassination Classroom": "04:07",
 	"Chiisana Boukensha - Konosuba": "03:15",
 	"Chopin Andante Spianato Op. 22 No. 1": "04:27",
 	"Chopin Ballade No. 1 Op. 23": "09:11",
@@ -733,6 +748,7 @@ var length = {
 	"Chopin Prelude Op. 28 No. 24": "02:13",
 	"Chopin Prelude Op. 28 No. 8": "01:52",
 	"Chopin Scherzo No. 2 Op. 31": "08:49",
+	"Chopin Scherzo No. 3 Op. 39": "07:57",
 	"Chopin Scherzo No. 4 Op. 54": "11:53",
 	"Chopin Sonata No. 1 Op. 4 Mov. 1": "09:17",
 	"Chopin Sonata No. 1 Op. 4 Mov. 4": "06:47",
@@ -750,6 +766,7 @@ var length = {
 	"Connect - Madoka Magica": "04:27",
 	"Continued Story - Code Geass": "05:08",
 	"Dango Daikazoku - Clannad": "04:32",
+	"Days of Dash - Pet Girl of Sakurasou": "04:09",
 	"Debussy Arabesque No. 1": "04:19",
 	"Debussy Arabesque No. 2": "03:11",
 	"Debussy Clair de Lune": "04:53",
@@ -881,4 +898,4 @@ for (const [key, value] of Object.entries(dict)) {
 	}
 }
 
-var totalLength = 78339.40422170909
+var totalLength = 79572.67383392129
