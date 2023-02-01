@@ -131,12 +131,13 @@ for file in os.listdir(directory):
 
 # get the name and id string of the data file
 names_and_ids = ""
-names = []
+names = {}
 with open("data-gen/raw_data.txt", 'r') as file:
     for line in file:
         names_and_ids += ("\t" + line)
         name = line.split(": ")[1].split(", ")[0]
-        names.append(name)
+        id = int(line.split(": ")[0][1:5])
+        names[id] = name
 
 count = 0
 volume_str = ""
@@ -157,12 +158,15 @@ with open("data.js", 'w') as file:
     file.write(names_and_ids + "\n")
     file.write("};\n\n")
     file.write("var categories = {\n")
-    for name in names:
+    for id in names:
+        name = names[id]
         category_str = "\t"
-        if " - " in name:
+        if id >= 1000 and id < 2000:
             category_str += (name + ": \"Anime\",\n" )
-        else:
+        elif id < 1000:
             category_str += (name + ": \"Classical\",\n" )
+        else:
+            category_str += (name + ": \"K-pop\",\n" )
         file.write(category_str)
     file.write("};\n\n")
     file.write("var volume = {\n")
