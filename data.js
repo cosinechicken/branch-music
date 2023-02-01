@@ -726,7 +726,7 @@ var volume = {
 	"Uso - Fullmetal Alchemist Brotherhood": "79.87",
 	"Wanna Go Home - Konosuba": "79.55",
 	"WANNABE - ITZY": "79.63",
-	"What is Love - TWICE": "81.8",
+	"What is Love - TWICE": "81.78",
 	"Wieniawski Violin Concerto 2": "65.06",
 	"Wishing - Re Zero": "76.99",
 	"Zen zen zense - Your Name": "79.91",
@@ -971,7 +971,7 @@ var length = {
 	"Uso - Fullmetal Alchemist Brotherhood": "03:22",
 	"Wanna Go Home - Konosuba": "03:17",
 	"WANNABE - ITZY": "03:32",
-	"What is Love - TWICE": "06:53",
+	"What is Love - TWICE": "03:26",
 	"Wieniawski Violin Concerto 2": "22:53",
 	"Wishing - Re Zero": "05:55",
 	"Zen zen zense - Your Name": "04:44",
@@ -988,4 +988,4 @@ for (const [key, value] of Object.entries(dict)) {
 	}
 }
 
-var totalLength = 84514.8189763717
+var totalLength = 84307.69897637168
