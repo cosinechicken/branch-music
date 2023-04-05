@@ -235,13 +235,29 @@ var dict = {
 	"2113": "What is Love - TWICE", // https://www.youtube.com/watch?v=ipOih_lghwo
 	"2114": "FANCY - TWICE",  // https://www.youtube.com/watch?v=kOHB85vDuow
 	"2115": "Celebrate - TWICE",  // https://www.youtube.com/watch?v=fMIn43MiwG8
+	"2116": "Set Me Free - TWICE",  // https://www.youtube.com/watch?v=j1U5Zcdu69M
+	"2117": "Moonlight Sunrise - TWICE",  // https://www.youtube.com/watch?v=Tc1Yg9TWVpg
+	"2118": "I Can't Stop Me - TWICE",  // https://www.youtube.com/watch?v=NRShS2cSmbY
+	"2119": "More and More - TWICE",  // https://www.youtube.com/watch?v=r5Jvz-s8h8Q
+	"2120": "Cry For Me - TWICE", // https://www.youtube.com/watch?v=g9gJBnR9Dqs
+	"2121": "Likey - TWICE",  // https://www.youtube.com/watch?v=Dqn65yZYswI
+	"2122": "CHEER UP - TWICE", // https://www.youtube.com/watch?v=uPm7ZTNAZ0c
 	"2150": "After LIKE - IVE", // https://www.youtube.com/watch?v=F0B7HDiY-10
 	"2151": "La Vie en Rose - IZONE", // https://www.youtube.com/watch?v=WZwr2a_lFWY
 	"2152": "Hype Boy - NewJeans",  // https://www.youtube.com/watch?v=11cta61wi0g
 	"2153": "WANNABE - ITZY", // https://www.youtube.com/watch?v=fE2h3lGlOsk
 	"2200": "BLACK MIRROR - ONEUS", // https://www.youtube.com/watch?v=LnB2Zg3um0g
-	"2201": "Blood Sweat and Tears - BTS",  // https://www.youtube.com/watch?v=b23_UkBrrQk
+	"2201": "Same Scent - ONEUS", // https://www.youtube.com/watch?v=dX6oopVPtt0
+	"2202": "Valkyrie - ONEUS", // https://www.youtube.com/watch?v=KIFThV8etgo
+	"2210": "Blood Sweat and Tears - BTS",  // https://www.youtube.com/watch?v=b23_UkBrrQk
+	"2211": "Boy With Luv - BTS", // https://www.youtube.com/watch?v=OEnvXsyGZmU
+	"2212": "DNA - BTS",  // https://www.youtube.com/watch?v=SxAvr92fRg4
+	"2213": "Dynamite - BTS", // https://www.youtube.com/watch?v=KhZ5DCd7m6s
 	"2300": "Flower - Crash Landing On You",  // https://www.youtube.com/watch?v=5cTjtIQnBAI
+	"2301": "Sunset - Crash Landing On You",  // https://www.youtube.com/watch?v=lUR4XSRvmI8
+	"2302": "Here I Am Again - Crash Landing On You", // https://www.youtube.com/watch?v=lrlGQCpWMnw
+	"2310": "Stay with me - Goblin",  // https://www.youtube.com/watch?v=A8syhfGRx4A
+	"2320": "Very Slowly - Twenty Five Twenty One", // https://www.youtube.com/watch?v=_hgSiJzCDJQ
 };
 
 var categories = {
@@ -479,13 +495,29 @@ var categories = {
 	"What is Love - TWICE": "K-pop",
 	"FANCY - TWICE": "K-pop",
 	"Celebrate - TWICE": "K-pop",
+	"Set Me Free - TWICE": "K-pop",
+	"Moonlight Sunrise - TWICE": "K-pop",
+	"I Can't Stop Me - TWICE": "K-pop",
+	"More and More - TWICE": "K-pop",
+	"Cry For Me - TWICE": "K-pop",
+	"Likey - TWICE": "K-pop",
+	"CHEER UP - TWICE": "K-pop",
 	"After LIKE - IVE": "K-pop",
 	"La Vie en Rose - IZONE": "K-pop",
 	"Hype Boy - NewJeans": "K-pop",
 	"WANNABE - ITZY": "K-pop",
 	"BLACK MIRROR - ONEUS": "K-pop",
+	"Same Scent - ONEUS": "K-pop",
+	"Valkyrie - ONEUS": "K-pop",
 	"Blood Sweat and Tears - BTS": "K-pop",
+	"Boy With Luv - BTS": "K-pop",
+	"DNA - BTS": "K-pop",
+	"Dynamite - BTS": "K-pop",
 	"Flower - Crash Landing On You": "K-pop",
+	"Sunset - Crash Landing On You": "K-pop",
+	"Here I Am Again - Crash Landing On You": "K-pop",
+	"Stay with me - Goblin": "K-pop",
+	"Very Slowly - Twenty Five Twenty One": "K-pop",
 };
 
 var volume = {
@@ -517,12 +549,14 @@ var volume = {
 	"BLACK MIRROR - ONEUS": "80.93",
 	"Blood Sweat and Tears - BTS": "80.44",
 	"Blue Orangeade - TXT": "75.36",
+	"Boy With Luv - BTS": "74.06",
 	"Brahms Hungarian Dance No. 1": "68.79",
 	"Brahms Hungarian Dance No. 5": "65.11",
 	"Brahms Violin Concerto Mov. 1": "69.12",
 	"Brave Song - Angel Beats": "76.1",
 	"Bye Bye Yesterday - Assassination Classroom": "80.66",
 	"Celebrate - TWICE": "81.53",
+	"CHEER UP - TWICE": "81.63",
 	"Chiisana Boukensha - Konosuba": "78.3",
 	"Chopin Andante Spianato Op. 22 No. 1": "61.69",
 	"Chopin Ballade No. 1 Op. 23": "70.52",
@@ -595,6 +629,7 @@ var volume = {
 	"Colors - Code Geass": "69.09",
 	"Connect - Madoka Magica": "78.61",
 	"Continued Story - Code Geass": "76.84",
+	"Cry For Me - TWICE": "79.74",
 	"Daddy - PSY": "80.49",
 	"Dango Daikazoku - Clannad": "73.81",
 	"Days of Dash - Pet Girl of Sakurasou": "80.65",
@@ -602,7 +637,9 @@ var volume = {
 	"Debussy Arabesque No. 2": "63.37",
 	"Debussy Clair de Lune": "63.96",
 	"Debussy Reverie": "59.33",
+	"DNA - BTS": "81.1",
 	"Door - Re Zero": "79.09",
+	"Dynamite - BTS": "81.01",
 	"Elegy for Rem - Re Zero": "71.77",
 	"FANCY - TWICE": "81.64",
 	"Flower - Crash Landing On You": "80.83",
@@ -619,9 +656,11 @@ var volume = {
 	"Gurenge - Demon Slayer": "80.17",
 	"Hacking to the Gate - Steins;Gate": "81.02",
 	"Haydn Serenade Op. 3 No. 5": "69.8",
+	"Here I Am Again - Crash Landing On You": "80.47",
 	"Hikaru Nara - Your Lie in April": "75.41",
 	"How You Like That - BLACKPINK": "79.22",
 	"Hype Boy - NewJeans": "78.79",
+	"I Can't Stop Me - TWICE": "81.15",
 	"Ichiban no Takaramono - Angel Beats": "76.23",
 	"If I've Been Enveloped in Tenderness - Kiki's Delivery Service": "76.34",
 	"Is There Still Anything That Love Can Do - Weathering With You": "78.35",
@@ -634,6 +673,7 @@ var volume = {
 	"Kreisler Liebesleid": "65.66",
 	"LA DI DA - Everglow": "82.21",
 	"La Vie en Rose - IZONE": "82.02",
+	"Likey - TWICE": "81.3",
 	"Liszt Consolation No. 2": "58.09",
 	"Liszt Consolation No. 3": "52.67",
 	"Liszt La Leggierezza": "64.36",
@@ -653,6 +693,8 @@ var volume = {
 	"Merry Go Round of Life - Howl's Moving Castle": "77.12",
 	"Misa Theme B - Death Note": "78.26",
 	"Moonlight Densetsu - Sailor Moon": "71.71",
+	"Moonlight Sunrise - TWICE": "80.84",
+	"More and More - TWICE": "81.3",
 	"Moszkowski Piano Concerto Mov. 1": "68.64",
 	"Mozart Symphony No. 41 Mov. 4": "68.1",
 	"My Soul Your Beats - Angel Beats": "77.57",
@@ -700,14 +742,17 @@ var volume = {
 	"Scriabin Etude Op. 8 No. 12": "74.23",
 	"Scriabin Sonata No. 2 Mov. 1": "63.75",
 	"Secret Base - Anohana": "72.53",
+	"Set Me Free - TWICE": "81.85",
 	"Shinzou wo Sasageyo - Attack on Titan": "68.2",
 	"Shostakovich Waltz No. 2": "72.09",
 	"Sirius - Kill la Kill": "80.63",
 	"Sis Puella Magica - Madoka Magica": "73.24",
 	"Sparkle - Your Name": "79.09",
+	"Stay with me - Goblin": "73.67",
 	"Strauss Blue Danube": "61.79",
 	"Strauss Fledermaus Overture": "62.82",
 	"Styx Helix - Re Zero": "79.12",
+	"Sunset - Crash Landing On You": "78.1",
 	"Super Riser! - Macross": "77.73",
 	"Talk that Talk - TWICE": "82.24",
 	"Tanjiro no Uta - Demon Slayer": "75.54",
@@ -724,6 +769,8 @@ var volume = {
 	"Tsuki Akari - Akame ga Kill": "65.82",
 	"TT - TWICE": "80.54",
 	"Uso - Fullmetal Alchemist Brotherhood": "79.87",
+	"Valkyrie - ONEUS": "81.3",
+	"Very Slowly - Twenty Five Twenty One": "79.0",
 	"Wanna Go Home - Konosuba": "79.55",
 	"WANNABE - ITZY": "79.63",
 	"What is Love - TWICE": "81.78",
@@ -762,12 +809,14 @@ var length = {
 	"BLACK MIRROR - ONEUS": "03:48",
 	"Blood Sweat and Tears - BTS": "03:35",
 	"Blue Orangeade - TXT": "03:03",
+	"Boy With Luv - BTS": "03:47",
 	"Brahms Hungarian Dance No. 1": "03:21",
 	"Brahms Hungarian Dance No. 5": "03:11",
 	"Brahms Violin Concerto Mov. 1": "23:34",
 	"Brave Song - Angel Beats": "05:19",
 	"Bye Bye Yesterday - Assassination Classroom": "04:07",
 	"Celebrate - TWICE": "03:05",
+	"CHEER UP - TWICE": "03:25",
 	"Chiisana Boukensha - Konosuba": "03:15",
 	"Chopin Andante Spianato Op. 22 No. 1": "04:27",
 	"Chopin Ballade No. 1 Op. 23": "09:11",
@@ -840,6 +889,7 @@ var length = {
 	"Colors - Code Geass": "01:29",
 	"Connect - Madoka Magica": "04:27",
 	"Continued Story - Code Geass": "05:08",
+	"Cry For Me - TWICE": "03:26",
 	"Daddy - PSY": "03:51",
 	"Dango Daikazoku - Clannad": "04:32",
 	"Days of Dash - Pet Girl of Sakurasou": "04:09",
@@ -847,7 +897,9 @@ var length = {
 	"Debussy Arabesque No. 2": "03:11",
 	"Debussy Clair de Lune": "04:53",
 	"Debussy Reverie": "04:13",
+	"DNA - BTS": "03:43",
 	"Door - Re Zero": "04:54",
+	"Dynamite - BTS": "03:17",
 	"Elegy for Rem - Re Zero": "06:59",
 	"FANCY - TWICE": "03:36",
 	"Flower - Crash Landing On You": "04:10",
@@ -864,9 +916,11 @@ var length = {
 	"Gurenge - Demon Slayer": "03:55",
 	"Hacking to the Gate - Steins;Gate": "04:13",
 	"Haydn Serenade Op. 3 No. 5": "04:34",
+	"Here I Am Again - Crash Landing On You": "03:50",
 	"Hikaru Nara - Your Lie in April": "04:08",
 	"How You Like That - BLACKPINK": "02:57",
 	"Hype Boy - NewJeans": "02:55",
+	"I Can't Stop Me - TWICE": "03:26",
 	"Ichiban no Takaramono - Angel Beats": "05:59",
 	"If I've Been Enveloped in Tenderness - Kiki's Delivery Service": "03:10",
 	"Is There Still Anything That Love Can Do - Weathering With You": "06:44",
@@ -879,6 +933,7 @@ var length = {
 	"Kreisler Liebesleid": "03:18",
 	"LA DI DA - Everglow": "03:31",
 	"La Vie en Rose - IZONE": "03:39",
+	"Likey - TWICE": "03:27",
 	"Liszt Consolation No. 2": "03:11",
 	"Liszt Consolation No. 3": "04:23",
 	"Liszt La Leggierezza": "04:29",
@@ -898,6 +953,8 @@ var length = {
 	"Merry Go Round of Life - Howl's Moving Castle": "05:07",
 	"Misa Theme B - Death Note": "02:28",
 	"Moonlight Densetsu - Sailor Moon": "02:51",
+	"Moonlight Sunrise - TWICE": "03:00",
+	"More and More - TWICE": "03:21",
 	"Moszkowski Piano Concerto Mov. 1": "12:54",
 	"Mozart Symphony No. 41 Mov. 4": "08:44",
 	"My Soul Your Beats - Angel Beats": "04:32",
@@ -945,14 +1002,17 @@ var length = {
 	"Scriabin Etude Op. 8 No. 12": "02:10",
 	"Scriabin Sonata No. 2 Mov. 1": "10:04",
 	"Secret Base - Anohana": "05:44",
+	"Set Me Free - TWICE": "03:01",
 	"Shinzou wo Sasageyo - Attack on Titan": "01:29",
 	"Shostakovich Waltz No. 2": "03:39",
 	"Sirius - Kill la Kill": "04:20",
 	"Sis Puella Magica - Madoka Magica": "02:45",
 	"Sparkle - Your Name": "06:45",
+	"Stay with me - Goblin": "03:10",
 	"Strauss Blue Danube": "10:51",
 	"Strauss Fledermaus Overture": "08:49",
 	"Styx Helix - Re Zero": "04:46",
+	"Sunset - Crash Landing On You": "03:30",
 	"Super Riser! - Macross": "03:47",
 	"Talk that Talk - TWICE": "02:56",
 	"Tanjiro no Uta - Demon Slayer": "05:26",
@@ -969,6 +1029,8 @@ var length = {
 	"Tsuki Akari - Akame ga Kill": "01:30",
 	"TT - TWICE": "03:32",
 	"Uso - Fullmetal Alchemist Brotherhood": "03:22",
+	"Valkyrie - ONEUS": "03:35",
+	"Very Slowly - Twenty Five Twenty One": "03:35",
 	"Wanna Go Home - Konosuba": "03:17",
 	"WANNABE - ITZY": "03:32",
 	"What is Love - TWICE": "03:26",
@@ -988,4 +1050,4 @@ for (const [key, value] of Object.entries(dict)) {
 	}
 }
 
-var totalLength = 84307.69897637168
+var totalLength = 87406.3985775071
