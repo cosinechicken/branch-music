@@ -256,7 +256,7 @@ var dict = {
 	"2300": "Flower - Crash Landing On You",  // https://www.youtube.com/watch?v=5cTjtIQnBAI
 	"2301": "Sunset - Crash Landing On You",  // https://www.youtube.com/watch?v=lUR4XSRvmI8
 	"2302": "Here I Am Again - Crash Landing On You", // https://www.youtube.com/watch?v=lrlGQCpWMnw
-	"2310": "Stay with me - Goblin",  // https://www.youtube.com/watch?v=A8syhfGRx4A
+	"2310": "Stay With Me - Goblin",  // https://www.youtube.com/watch?v=A8syhfGRx4A
 	"2320": "Very Slowly - Twenty Five Twenty One", // https://www.youtube.com/watch?v=_hgSiJzCDJQ
 };
 
@@ -516,7 +516,7 @@ var categories = {
 	"Flower - Crash Landing On You": "K-pop",
 	"Sunset - Crash Landing On You": "K-pop",
 	"Here I Am Again - Crash Landing On You": "K-pop",
-	"Stay with me - Goblin": "K-pop",
+	"Stay With Me - Goblin": "K-pop",
 	"Very Slowly - Twenty Five Twenty One": "K-pop",
 };
 
@@ -731,6 +731,7 @@ var volume = {
 	"Rouge no Dengon - Kiki's Delivery Service": "70.37",
 	"Saint-Saens Introduction Rondo Capriccioso": "67.79",
 	"Saint-Saens The Swan": "67.22",
+	"Same Scent - ONEUS": "74.8",
 	"Sarasate Zigeunerweisen": "65.26",
 	"Schubert Impromptu Op. 90 No. 1": "66.43",
 	"Schubert Impromptu Op. 90 No. 2": "67.38",
@@ -748,7 +749,7 @@ var volume = {
 	"Sirius - Kill la Kill": "80.63",
 	"Sis Puella Magica - Madoka Magica": "73.24",
 	"Sparkle - Your Name": "79.09",
-	"Stay with me - Goblin": "73.67",
+	"Stay With Me - Goblin": "73.67",
 	"Strauss Blue Danube": "61.79",
 	"Strauss Fledermaus Overture": "62.82",
 	"Styx Helix - Re Zero": "79.12",
@@ -991,6 +992,7 @@ var length = {
 	"Rouge no Dengon - Kiki's Delivery Service": "03:01",
 	"Saint-Saens Introduction Rondo Capriccioso": "08:30",
 	"Saint-Saens The Swan": "03:12",
+	"Same Scent - ONEUS": "03:12",
 	"Sarasate Zigeunerweisen": "08:37",
 	"Schubert Impromptu Op. 90 No. 1": "09:31",
 	"Schubert Impromptu Op. 90 No. 2": "04:44",
@@ -1008,7 +1010,7 @@ var length = {
 	"Sirius - Kill la Kill": "04:20",
 	"Sis Puella Magica - Madoka Magica": "02:45",
 	"Sparkle - Your Name": "06:45",
-	"Stay with me - Goblin": "03:10",
+	"Stay With Me - Goblin": "03:10",
 	"Strauss Blue Danube": "10:51",
 	"Strauss Fledermaus Overture": "08:49",
 	"Styx Helix - Re Zero": "04:46",
@@ -1050,4 +1052,4 @@ for (const [key, value] of Object.entries(dict)) {
 	}
 }
 
-var totalLength = 87406.3985775071
+var totalLength = 87599.26524417377
