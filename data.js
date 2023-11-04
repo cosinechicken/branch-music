@@ -778,7 +778,6 @@ var volume = {
 	"Wieniawski Violin Concerto 2": "65.06",
 	"Wishing - Re Zero": "76.99",
 	"Zen zen zense - Your Name": "79.91",
-
 };
 
 var length = {
@@ -1039,7 +1038,6 @@ var length = {
 	"Wieniawski Violin Concerto 2": "22:53",
 	"Wishing - Re Zero": "05:55",
 	"Zen zen zense - Your Name": "04:44",
-
 };
 
 var infoList = []
@@ -1052,4 +1050,4 @@ for (const [key, value] of Object.entries(dict)) {
 	}
 }
 
-var totalLength = 87599.26524417377
+var totalLength = 0

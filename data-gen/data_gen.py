@@ -142,15 +142,32 @@ with open("data-gen/raw_data.txt", 'r') as file:
 count = 0
 volume_str = ""
 length_str = ""
+seen_songs = set()
+
+# Collect all the existing data
+with open("data.js", 'r') as file:
+    old_data_str = file.read()
+    old_dict = old_data_str.split("var dict = {\n")[1].split("};")[0]
+    old_categories = old_data_str.split("var categories = {\n")[1].split("};")[0]
+    old_volume = old_data_str.split("var volume = {\n")[1].split("};")[0]
+    old_length = old_data_str.split("var length = {\n")[1].split("};")[0]
+    volume_str = old_volume
+    length_str = old_length
+    print(old_categories)
+    for name in old_categories.split("\n"):
+        seen_songs.add((name.split(":")[0])[2:-1])
+    print(seen_songs)
 
 # for every video in the music folder compute the volume and length and build up the string
 for file in os.listdir(directory):
     count += 1
     filename = os.fsdecode(file)
     print("(" + str(count) + "/" + str(total) + ") Processing: " + filename)
-    temp_volume_str, temp_length_str = process_file(filename)
-    volume_str += temp_volume_str
-    length_str += temp_length_str
+    if not filename[:-4] in seen_songs:
+        print(filename[:-4])
+        temp_volume_str, temp_length_str = process_file(filename)
+        volume_str += temp_volume_str
+        length_str += temp_length_str
 
 with open("data.js", 'w') as file:
     file.write("// A data file containing a dictionary sending IDs to song titles. \n// IDs are 4 digits, where first digit corresponds to type (e.g. classical, anime, etc.)\n")
@@ -170,10 +187,10 @@ with open("data.js", 'w') as file:
         file.write(category_str)
     file.write("};\n\n")
     file.write("var volume = {\n")
-    file.write(volume_str + "\n")
+    file.write(volume_str)
     file.write("};\n\n")
     file.write("var length = {\n")
-    file.write(length_str + "\n")
+    file.write(length_str)
     file.write("};\n\n")
     file.write("var infoList = []\n")
     file.write("var catInfoList = []\n")
