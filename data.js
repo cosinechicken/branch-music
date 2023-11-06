@@ -132,15 +132,25 @@ var dict = {
 	"0665": "Mozart Symphony No. 41 Mov. 4",  // https://www.youtube.com/watch?v=C6EOb86YdIs
 	"0666": "Ravel Pavane for a Dead Princess", // https://www.youtube.com/watch?v=GKkeDqJBlK8
 	"0667": "Gliere Harp Concerto", // https://www.youtube.com/watch?v=t7Pai-BASak
-	"0668": "Moszkowski Piano Concerto Mov. 1", // https://www.youtube.com/watch?v=eh3l8I-JT4Q
-	"0670": "Strauss Fledermaus Overture",  // https://www.youtube.com/watch?v=QROR4LioU-8
-	"0671": "Strauss Blue Danube",  // https://www.youtube.com/watch?v=_CTYymbbEL4
-	"0672": "Shostakovich Waltz No. 2", // https://www.youtube.com/watch?v=phBThlPTBEg
-	"0680": "Sarasate Zigeunerweisen",  // https://www.youtube.com/watch?v=5ysiQMbe_do
-	"0681": "Massenet Meditation from Thais", // https://www.youtube.com/watch?v=7QtGOWemQhY
-	"0682": "Rimsky-Korsakov Procession of the Nobles", // https://www.youtube.com/watch?v=nBdKlNsuPd4
-	"0683": "Offenbach Galop Infernal", // https://www.youtube.com/watch?v=okQRnHvw3is
-	"0684": "Wieniawski Violin Concerto 2", // https://www.youtube.com/watch?v=T7KNd6W5OXo
+	"0668": "Wieniawski Violin Concerto 2", // https://www.youtube.com/watch?v=T7KNd6W5OXo
+	"0669": "Moszkowski Piano Concerto Mov. 1", // https://www.youtube.com/watch?v=eh3l8I-JT4Q
+	"0670": "Moszkowski Piano Concerto Mov. 2", // https://www.youtube.com/watch?v=eh3l8I-JT4Q
+	"0671": "Moszkowski Piano Concerto Mov. 3", // https://www.youtube.com/watch?v=eh3l8I-JT4Q
+	"0672": "Moszkowski Piano Concerto Mov. 4", // https://www.youtube.com/watch?v=eh3l8I-JT4Q
+	"0673": "Dvorak Symphony 9 Mov. 1", // https://www.youtube.com/watch?v=jOofzffyDSA
+	"0674": "Dvorak Symphony 9 Mov. 2", // https://www.youtube.com/watch?v=jOofzffyDSA
+	"0675": "Dvorak Symphony 9 Mov. 3", // https://www.youtube.com/watch?v=jOofzffyDSA
+	"0676": "Dvorak Symphony 9 Mov. 4", // https://www.youtube.com/watch?v=jOofzffyDSA
+	"0677": "Tchaikovsky Symphony 6 Mov. 4",  // https://www.youtube.com/watch?v=jqq31QZU7sg
+	"0678": "Saint-Saens Symphony 3 Mov. 1",  // https://www.youtube.com/watch?v=ZWCZq33BrOo
+	"0679": "Rimsky-Korsakov Scheherazade Mov. 2",  // https://www.youtube.com/watch?v=zY4w4_W30aQ
+	"0800": "Strauss Fledermaus Overture",  // https://www.youtube.com/watch?v=QROR4LioU-8
+	"0801": "Strauss Blue Danube",  // https://www.youtube.com/watch?v=_CTYymbbEL4
+	"0802": "Shostakovich Waltz No. 2", // https://www.youtube.com/watch?v=phBThlPTBEg
+	"0803": "Offenbach Galop Infernal", // https://www.youtube.com/watch?v=okQRnHvw3is
+	"0804": "Rimsky-Korsakov Procession of the Nobles", // https://www.youtube.com/watch?v=nBdKlNsuPd4
+	"0805": "Sarasate Zigeunerweisen",  // https://www.youtube.com/watch?v=5ysiQMbe_do
+	"0806": "Massenet Meditation from Thais", // https://www.youtube.com/watch?v=7QtGOWemQhY
 	"1000": "Hikaru Nara - Your Lie in April",  // https://www.youtube.com/watch?v=cWtgGTCAjYY 
 	"1001": "Nanairo Symphony - Your Lie in April", // https://www.youtube.com/watch?v=lqRcl2k2xS8
 	"1002": "Kirameki - Your Lie in April", // https://www.youtube.com/watch?v=iI_sbL-xhgw
@@ -214,11 +224,13 @@ var dict = {
 	"1070": "Toki wo Kizamu Uta - Clannad After Story",  // https://www.youtube.com/watch?v=PozVlhR20TE
 	"1071": "Mata Ashita - Madoka Magica",  // https://www.youtube.com/watch?v=4Pdghq3xbwE
 	"1072": "Rain - Fullmetal Alchemist Brotherhood", // https://www.youtube.com/watch?v=dBL3PXI_jFo
-	"1073": "Racing into the Night",  // https://www.youtube.com/watch?v=by4SYYWlhEs
 	"1074": "Name of Love - Attack on Titan", // https://www.youtube.com/watch?v=LnCDBel2JV0
 	"1075": "Ashitaka and San - Princess Mononoke", // https://www.youtube.com/watch?v=faf98cNY8A8
 	"1076": "Days of Dash - Pet Girl of Sakurasou", // https://www.youtube.com/watch?v=xwtd8-yrBZs
 	"1077": "Bye Bye Yesterday - Assassination Classroom",  // https://www.youtube.com/watch?v=1RJt1rwNzoo
+	"1500": "Racing into the Night - YOASOBI",  // https://www.youtube.com/watch?v=by4SYYWlhEs
+	"1501": "Comet - YOASOBI",  // https://www.youtube.com/watch?v=VyvhvlYvRnc
+	"1502": "Just a Little Step - YOASOBI", // https://www.youtube.com/watch?v=K1Tz2yNmamI
 	"2001": "Panorama - IZONE", // https://www.youtube.com/watch?v=64hndxW-pJw
 	"2002": "Blue Orangeade - TXT", // https://www.youtube.com/watch?v=A-4ZORfPH24
 	"2007": "A Song Written Easily - ONEUS",  // https://www.youtube.com/watch?v=uSlEvdC22f0
@@ -226,9 +238,16 @@ var dict = {
 	"2011": "Adore U - SEVENTEEN",  // https://www.youtube.com/watch?v=9rUFQJrCT7M
 	"2015": "Daddy - PSY",  // https://www.youtube.com/watch?v=QWbgqsCSCEE
 	"2018": "LA DI DA - Everglow",  // https://www.youtube.com/watch?v=ayIIPGa9aQw
+	"2021": "Halazia - ATEEZ",  // https://www.youtube.com/watch?v=AXzE5qM6PUc
+	"2028": "DM - fromis9", https://www.youtube.com/watch?v=ZzILVTfeynE
+	"2030": "Secret Story of the Swan - IZONE", https://www.youtube.com/watch?v=kXE3XmaLK5I
+	"2031": "DDD - THE BOYZ",   https://www.youtube.com/watch?v=77KRP0ceGUg
+	"2038": "28 Reasons - SEULGI",  https://www.youtube.com/watch?v=2NX-KeezXDg
 	"2100": "How You Like That - BLACKPINK",  // https://www.youtube.com/watch?v=On9myxf5qxE
 	"2101": "As If It's Your Last - BLACKPINK", // https://www.youtube.com/watch?v=64q9zY13PVc
 	"2102": "Lovesick Girls - BLACKPINK", // https://www.youtube.com/watch?v=dyRsYk0LyA8
+	"2103": "Playing with Fire - BLACKPINK",  // https://www.youtube.com/watch?v=BmzAGDnJzss
+	"2104": "Gone - ROSE",  // https://www.youtube.com/watch?v=HO5feL3V4k4
 	"2110": "TT - TWICE", // https://www.youtube.com/watch?v=ZOWzJwPMxSw
 	"2111": "Talk that Talk - TWICE", // https://www.youtube.com/watch?v=pmkWBgayoUk
 	"2112": "The Feels - TWICE",  // https://www.youtube.com/watch?v=f5_wn8mexmM
@@ -242,10 +261,13 @@ var dict = {
 	"2120": "Cry For Me - TWICE", // https://www.youtube.com/watch?v=g9gJBnR9Dqs
 	"2121": "Likey - TWICE",  // https://www.youtube.com/watch?v=Dqn65yZYswI
 	"2122": "CHEER UP - TWICE", // https://www.youtube.com/watch?v=uPm7ZTNAZ0c
-	"2150": "After LIKE - IVE", // https://www.youtube.com/watch?v=F0B7HDiY-10
-	"2151": "La Vie en Rose - IZONE", // https://www.youtube.com/watch?v=WZwr2a_lFWY
-	"2152": "Hype Boy - NewJeans",  // https://www.youtube.com/watch?v=11cta61wi0g
-	"2153": "WANNABE - ITZY", // https://www.youtube.com/watch?v=fE2h3lGlOsk
+	"2130": "After LIKE - IVE", // https://www.youtube.com/watch?v=F0B7HDiY-10
+	"2131": "Love Dive - IVE",  // https://www.youtube.com/watch?v=l-jZOXa7gQY
+	"2132": "I Am - IVE", // https://www.youtube.com/watch?v=Bdzv7JBvkis
+	"2140": "La Vie en Rose - IZONE", // https://www.youtube.com/watch?v=WZwr2a_lFWY
+	"2150": "Hype Boy - NewJeans",  // https://www.youtube.com/watch?v=11cta61wi0g
+	"2160": "WANNABE - ITZY", // https://www.youtube.com/watch?v=fE2h3lGlOsk
+	"2170": "Heart Attack - Chuu",  // https://www.youtube.com/watch?v=Nh1HdqjE5kQ
 	"2200": "BLACK MIRROR - ONEUS", // https://www.youtube.com/watch?v=LnB2Zg3um0g
 	"2201": "Same Scent - ONEUS", // https://www.youtube.com/watch?v=dX6oopVPtt0
 	"2202": "Valkyrie - ONEUS", // https://www.youtube.com/watch?v=KIFThV8etgo
@@ -253,6 +275,11 @@ var dict = {
 	"2211": "Boy With Luv - BTS", // https://www.youtube.com/watch?v=OEnvXsyGZmU
 	"2212": "DNA - BTS",  // https://www.youtube.com/watch?v=SxAvr92fRg4
 	"2213": "Dynamite - BTS", // https://www.youtube.com/watch?v=KhZ5DCd7m6s
+	"2214": "Fake Love - BTS",  // https://www.youtube.com/watch?v=0tWU94w_3ig
+	"2220": "0X1 LOVESONG - TXT",  // https://www.youtube.com/watch?v=wTIDdLMb85M
+	"2221": "Sugar Rush Ride - TXT",  // https://www.youtube.com/watch?v=F8o_w533TWY
+	"2222": "LOSER LOVER - TXT",  // https://www.youtube.com/watch?v=-zGk3AtTaUE
+	"2223": "Anti Romantic - TXT",  // https://www.youtube.com/watch?v=LYAkY8Dh9CU
 	"2300": "Flower - Crash Landing On You",  // https://www.youtube.com/watch?v=5cTjtIQnBAI
 	"2301": "Sunset - Crash Landing On You",  // https://www.youtube.com/watch?v=lUR4XSRvmI8
 	"2302": "Here I Am Again - Crash Landing On You", // https://www.youtube.com/watch?v=lrlGQCpWMnw
@@ -392,15 +419,25 @@ var categories = {
 	"Mozart Symphony No. 41 Mov. 4": "Classical",
 	"Ravel Pavane for a Dead Princess": "Classical",
 	"Gliere Harp Concerto": "Classical",
+	"Wieniawski Violin Concerto 2": "Classical",
 	"Moszkowski Piano Concerto Mov. 1": "Classical",
+	"Moszkowski Piano Concerto Mov. 2": "Classical",
+	"Moszkowski Piano Concerto Mov. 3": "Classical",
+	"Moszkowski Piano Concerto Mov. 4": "Classical",
+	"Dvorak Symphony 9 Mov. 1": "Classical",
+	"Dvorak Symphony 9 Mov. 2": "Classical",
+	"Dvorak Symphony 9 Mov. 3": "Classical",
+	"Dvorak Symphony 9 Mov. 4": "Classical",
+	"Tchaikovsky Symphony 6 Mov. 4": "Classical",
+	"Saint-Saens Symphony 3 Mov. 1": "Classical",
+	"Rimsky-Korsakov Scheherazade Mov. 2": "Classical",
 	"Strauss Fledermaus Overture": "Classical",
 	"Strauss Blue Danube": "Classical",
 	"Shostakovich Waltz No. 2": "Classical",
+	"Offenbach Galop Infernal": "Classical",
+	"Rimsky-Korsakov Procession of the Nobles": "Classical",
 	"Sarasate Zigeunerweisen": "Classical",
 	"Massenet Meditation from Thais": "Classical",
-	"Rimsky-Korsakov Procession of the Nobles": "Classical",
-	"Offenbach Galop Infernal": "Classical",
-	"Wieniawski Violin Concerto 2": "Classical",
 	"Hikaru Nara - Your Lie in April": "Anime",
 	"Nanairo Symphony - Your Lie in April": "Anime",
 	"Kirameki - Your Lie in April": "Anime",
@@ -474,11 +511,13 @@ var categories = {
 	"Toki wo Kizamu Uta - Clannad After Story": "Anime",
 	"Mata Ashita - Madoka Magica": "Anime",
 	"Rain - Fullmetal Alchemist Brotherhood": "Anime",
-	"Racing into the Night": "Anime",
 	"Name of Love - Attack on Titan": "Anime",
 	"Ashitaka and San - Princess Mononoke": "Anime",
 	"Days of Dash - Pet Girl of Sakurasou": "Anime",
 	"Bye Bye Yesterday - Assassination Classroom": "Anime",
+	"Racing into the Night - YOASOBI": "Anime",
+	"Comet - YOASOBI": "Anime",
+	"Just a Little Step - YOASOBI": "Anime",
 	"Panorama - IZONE": "K-pop",
 	"Blue Orangeade - TXT": "K-pop",
 	"A Song Written Easily - ONEUS": "K-pop",
@@ -486,9 +525,16 @@ var categories = {
 	"Adore U - SEVENTEEN": "K-pop",
 	"Daddy - PSY": "K-pop",
 	"LA DI DA - Everglow": "K-pop",
+	"Halazia - ATEEZ": "K-pop",
+	"DM - fromis9": "K-pop",
+	"Secret Story of the Swan - IZONE": "K-pop",
+	"DDD - THE BOYZ": "K-pop",
+	"28 Reasons - SEULGI": "K-pop",
 	"How You Like That - BLACKPINK": "K-pop",
 	"As If It's Your Last - BLACKPINK": "K-pop",
 	"Lovesick Girls - BLACKPINK": "K-pop",
+	"Playing with Fire - BLACKPINK": "K-pop",
+	"Gone - ROSE": "K-pop",
 	"TT - TWICE": "K-pop",
 	"Talk that Talk - TWICE": "K-pop",
 	"The Feels - TWICE": "K-pop",
@@ -503,9 +549,12 @@ var categories = {
 	"Likey - TWICE": "K-pop",
 	"CHEER UP - TWICE": "K-pop",
 	"After LIKE - IVE": "K-pop",
+	"Love Dive - IVE": "K-pop",
+	"I Am - IVE": "K-pop",
 	"La Vie en Rose - IZONE": "K-pop",
 	"Hype Boy - NewJeans": "K-pop",
 	"WANNABE - ITZY": "K-pop",
+	"Heart Attack - Chuu": "K-pop",
 	"BLACK MIRROR - ONEUS": "K-pop",
 	"Same Scent - ONEUS": "K-pop",
 	"Valkyrie - ONEUS": "K-pop",
@@ -513,6 +562,11 @@ var categories = {
 	"Boy With Luv - BTS": "K-pop",
 	"DNA - BTS": "K-pop",
 	"Dynamite - BTS": "K-pop",
+	"Fake Love - BTS": "K-pop",
+	"0X1 LOVESONG - TXT": "K-pop",
+	"Sugar Rush Ride - TXT": "K-pop",
+	"LOSER LOVER - TXT": "K-pop",
+	"Anti Romantic - TXT": "K-pop",
 	"Flower - Crash Landing On You": "K-pop",
 	"Sunset - Crash Landing On You": "K-pop",
 	"Here I Am Again - Crash Landing On You": "K-pop",
@@ -718,7 +772,7 @@ var volume = {
 	"Rachmaninoff Piano Concerto No. 2 Mov. 2": "63.62",
 	"Rachmaninoff Piano Concerto No. 2 Mov. 3": "67.96",
 	"Rachmaninoff Symphony No. 2 Mov. 3": "68.01",
-	"Racing into the Night": "80.54",
+	"Racing into the Night - YOASOBI": "80.54",
 	"Rain - Fullmetal Alchemist Brotherhood": "79.23",
 	"Ravel Pavane for a Dead Princess": "66.23",
 	"Red Swan - Attack on Titan": "76.07",
@@ -778,6 +832,33 @@ var volume = {
 	"Wieniawski Violin Concerto 2": "65.06",
 	"Wishing - Re Zero": "76.99",
 	"Zen zen zense - Your Name": "79.91",
+	"Halazia - ATEEZ": "80.76",
+	"0X1 LOVESONG - TXT": "73.44",
+	"28 Reasons - SEULGI": "81.47",
+	"Anti Romantic - TXT": "79.2",
+	"Comet - YOASOBI": "79.88",
+	"DDD - THE BOYZ": "81.05",
+	"DM - fromis9": "82.46",
+	"Dvorak Symphony 9 Mov. 1": "69.27",
+	"Dvorak Symphony 9 Mov. 2": "63.96",
+	"Dvorak Symphony 9 Mov. 3": "69.63",
+	"Dvorak Symphony 9 Mov. 4": "71.47",
+	"Fake Love - BTS": "80.24",
+	"Gone - ROSE": "73.03",
+	"Heart Attack - Chuu": "80.05",
+	"I Am - IVE": "80.62",
+	"Just a Little Step - YOASOBI": "80.13",
+	"LOSER LOVER - TXT": "76.81",
+	"Love Dive - IVE": "82.95",
+	"Moszkowski Piano Concerto Mov. 2": "65.28",
+	"Moszkowski Piano Concerto Mov. 3": "66.9",
+	"Moszkowski Piano Concerto Mov. 4": "67.82",
+	"Playing with Fire - BLACKPINK": "79.76",
+	"Rimsky-Korsakov Scheherazade Mov. 2": "69.65",
+	"Saint-Saens Symphony 3 Mov. 1": "62.16",
+	"Secret Story of the Swan - IZONE": "81.92",
+	"Sugar Rush Ride - TXT": "81.67",
+	"Tchaikovsky Symphony 6 Mov. 4": "69.17",
 };
 
 var length = {
@@ -978,7 +1059,7 @@ var length = {
 	"Rachmaninoff Piano Concerto No. 2 Mov. 2": "12:01",
 	"Rachmaninoff Piano Concerto No. 2 Mov. 3": "11:33",
 	"Rachmaninoff Symphony No. 2 Mov. 3": "15:28",
-	"Racing into the Night": "04:21",
+	"Racing into the Night - YOASOBI": "04:21",
 	"Rain - Fullmetal Alchemist Brotherhood": "04:13",
 	"Ravel Pavane for a Dead Princess": "06:40",
 	"Red Swan - Attack on Titan": "01:30",
@@ -1038,6 +1119,33 @@ var length = {
 	"Wieniawski Violin Concerto 2": "22:53",
 	"Wishing - Re Zero": "05:55",
 	"Zen zen zense - Your Name": "04:44",
+	"Halazia - ATEEZ": "03:15",
+	"0X1 LOVESONG - TXT": "03:21",
+	"28 Reasons - SEULGI": "03:08",
+	"Anti Romantic - TXT": "03:33",
+	"Comet - YOASOBI": "03:36",
+	"DDD - THE BOYZ": "03:32",
+	"DM - fromis9": "03:21",
+	"Dvorak Symphony 9 Mov. 1": "12:12",
+	"Dvorak Symphony 9 Mov. 2": "13:03",
+	"Dvorak Symphony 9 Mov. 3": "07:42",
+	"Dvorak Symphony 9 Mov. 4": "12:09",
+	"Fake Love - BTS": "03:59",
+	"Gone - ROSE": "03:25",
+	"Heart Attack - Chuu": "03:16",
+	"I Am - IVE": "06:04",
+	"Just a Little Step - YOASOBI": "03:40",
+	"LOSER LOVER - TXT": "03:14",
+	"Love Dive - IVE": "02:55",
+	"Moszkowski Piano Concerto Mov. 2": "08:51",
+	"Moszkowski Piano Concerto Mov. 3": "07:14",
+	"Moszkowski Piano Concerto Mov. 4": "09:33",
+	"Playing with Fire - BLACKPINK": "03:16",
+	"Rimsky-Korsakov Scheherazade Mov. 2": "12:51",
+	"Saint-Saens Symphony 3 Mov. 1": "20:32",
+	"Secret Story of the Swan - IZONE": "03:11",
+	"Sugar Rush Ride - TXT": "03:05",
+	"Tchaikovsky Symphony 6 Mov. 4": "09:43",
 };
 
 var infoList = []
@@ -1050,4 +1158,4 @@ for (const [key, value] of Object.entries(dict)) {
 	}
 }
 
-var totalLength = 0
+var totalLength = 10238.058271282453
