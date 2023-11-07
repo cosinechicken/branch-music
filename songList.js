@@ -15,5 +15,5 @@ function generateTable(table, data) {
             cell.appendChild(text);
         }
     }
-    document.getElementById("numSongs").textContent = ("Number of songs: " + count);
+    // document.getElementById("numSongs").textContent = ("Number of songs: " + count);
 }

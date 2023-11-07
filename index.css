@@ -22,11 +22,6 @@ body {
   text-align: center;
 }
 
-.navbar a:hover {
-  background-color: #bbb;
-  color: black;
-}
-
 h1 {
   font-size: 36px;
   text-align: center;
@@ -78,7 +73,27 @@ input, button, select, div {
   border: 1px solid #000; /* example border */
 }
 
-/* Rest of the toggle CSS remains unchanged */
+input, select, button {
+  background-color: #B4B4B4; /* Light background for inputs and buttons */
+  color: #333; /* Dark text color for contrast */
+  border: 1px solid #AAA; /* Subtle border */
+  border-radius: 4px;
+}
+
+/* Style for input fields */
+input:hover, select:hover, button:hover {
+  background-color: #A8A8A8; /* Slightly darker background on hover */
+  border-color: #888; /* Darker border on hover */
+}
+
+/* Adjustments for the toggle switch */
+.toggle .slider {
+  background-color: #ccc; /* Default background */
+}
+
+.toggle .slider:hover {
+  background-color: #B0B0B0; /* Darker background on hover */
+}
 
 
 .toggle {
