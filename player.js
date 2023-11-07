@@ -1,4 +1,5 @@
 var loop = false;
+var curIndex = -1;
 
 function randomize() {
     // Randomizes song being played
@@ -6,7 +7,8 @@ function randomize() {
     // find the index in infolist
     for (let i = 0; i < infoList.length; i++) {
         if (infoList[i][0] === catInfoList[index][0]) {
-            play(i);
+            curIndex = i;
+            play();
             return;
         }
     }
@@ -25,8 +27,9 @@ function toggleAutoplay() {
 function audioEnded() {
     // Run this function when the audio ends
     if (!loop) {
-        document.getElementById("audio").play();
         randomize();
+    } else {
+        play(curIndex);
     }
     
     
@@ -37,22 +40,25 @@ function playByID() {
     for (let i = 0; i < infoList.length; i++) {
         if (id === infoList[i][0]) {
             document.getElementById("idInput").value = "";
-            play(i);
+            curIndex = i;
+            play();
             console.log("Now playing: " + id);
             return;
         }
     }
 }
-function play(index) {
+
+// Play the song indexed by curIndex
+function play() {
     // We found a match
-    let srcString = "Music/" + infoList[index][1] + ".mp4";
+    let srcString = "Music/" + infoList[curIndex][1] + ".mp4";
     console.log(srcString);
     document.getElementById("audio").src = srcString;
-    document.getElementById("current").textContent = "Playing: " + infoList[index][1]
-        + " (ID: " + infoList[index][0] + ")";
-    document.getElementById("volume").textContent = "Volume: " + infoList[index][3];
+    document.getElementById("current").textContent = "Playing: " + infoList[curIndex][1]
+        + " (ID: " + infoList[curIndex][0] + ")";
+    document.getElementById("volume").textContent = "Volume: " + infoList[curIndex][3];
     // Update the category
-    document.getElementById("categorySelect").value = categories[infoList[index][1]];
+    document.getElementById("categorySelect").value = categories[infoList[curIndex][1]];
     changeCategory();
     document.getElementById("audio").load();
     document.getElementById("audio").play();
