@@ -14,6 +14,12 @@ function generateTable(table, data) {
     // document.getElementById("numSongs").textContent = ("Number of songs: " + count);
 }
 
+function clearHistory() {
+    localStorage.setItem('historyList', JSON.stringify([]));
+    while (table.rows.length > 0) {
+        table.deleteRow(0);
+    }
+}
 
 window.onload = function() {
     // Check if historyList exists and has content

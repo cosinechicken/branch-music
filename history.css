@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* Changed to sans-serif to match the main page */
+    width: 100%;
+    height: 100%;
+    background-color: #DDD; /* Added background color */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: left;
+    background-color: #333;
+    padding: 8px 40px;
+  }
+  
+  .navbar a {
+    color: #ddd;
+    padding: 16px 24px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 0 0 24px; /* Add horizontal padding */
+  }
+  
+  th, td {
+    text-align: left; /* Align text to the left */
+    border: 1px solid #AAA; /* Lighten border color for a softer look */
+    padding: 4px 16px; /* Increase padding for a better look */
+    font-size: 16px; /* Adjust font size for consistency */
+  }
+  
+  thead {
+    background-color: #BBB; /* Header background */
+  }
+  
+  tbody tr:nth-child(odd) {
+    background: #EEE; /* Alternating row colors for better readability */
+  }
+  
+  tbody tr:nth-child(even) {
+    background: #DDD;
+  }
+  
+  .container2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 0px;
+    padding: 24px 24px 8px 24px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 4px;
+    
+  }
+  
