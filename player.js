@@ -56,7 +56,12 @@ function play() {
     document.getElementById("audio").play();
     let curTime = (new Date(Date.now())).toLocaleString();
     let nextHistoryElement = [curTime, infoList[curIndex][0], infoList[curIndex][1], infoList[curIndex][2]];
-    let storedHistoryList = JSON.parse(localStorage.getItem('historyList'));
+    let storedHistoryList = [];
+    try {
+        storedHistoryList = JSON.parse(localStorage.getItem('historyList'));
+    } catch {
+        storedHistoryList = [];
+    }
     storedHistoryList.push(nextHistoryElement);
     localStorage.setItem('historyList', JSON.stringify(storedHistoryList));
 }

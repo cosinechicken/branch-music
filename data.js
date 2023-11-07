@@ -1728,4 +1728,4 @@ for (const [key, value] of Object.entries(dict)) {
 	}
 }
 
-var totalLength = 97849.77394940154
+var totalLength = 0

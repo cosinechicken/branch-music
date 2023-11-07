@@ -159,7 +159,7 @@ with open("data.js", 'r') as file:
     print(seen_songs)
 
 # If we want to reprocess every song, empty the seen_songs set
-fast_process = False
+fast_process = True
 if not fast_process:
     seen_songs.clear()
 
@@ -198,8 +198,8 @@ with open("data.js", 'w') as file:
     file.write("var length = {\n")
     file.write(length_str)
     file.write("};\n\n")
-    file.write("var infoList = []\n")
-    file.write("var catInfoList = []\n")
+    file.write("var infoList = [];\n")
+    file.write("var catInfoList = [];\n")
     file.write("for (const [key, value] of Object.entries(dict)) {\n")
     file.write("\tinfoList.push([key, value, categories[value], volume[value], length[value]]);\n")
     file.write("\t// Default to classical\n")

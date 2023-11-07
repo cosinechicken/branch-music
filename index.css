@@ -9,11 +9,11 @@ body {
   background-color: #DDD;
 }
 
-@media (max-width: 1300px) {
+@media (min-resolution: 2dppx) {
   body {
-    font-size: 24px; /* Larger font size for mobile */
+    font-size: 24px;
   }
-
+  
   .navbar {
     justify-content: space-around; /* Spread out navbar items */
     align-items: center;
