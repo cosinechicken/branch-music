@@ -158,6 +158,12 @@ with open("data.js", 'r') as file:
         seen_songs.add((name.split(":")[0])[2:-1])
     print(seen_songs)
 
+# If we want to reprocess every song, empty the seen_songs set
+fast_process = False
+if not fast_process:
+    seen_songs.clear()
+
+
 # for every video in the music folder compute the volume and length and build up the string
 for file in os.listdir(directory):
     count += 1

@@ -1,75 +1,59 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Music Player</title>
   <link rel="icon" type="image/x-icon" href="/images/favicon.png?v=2">
   <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
 
-<script src="player.js"></script>
-<script src="data.js"></script>
+<nav class="navbar">
+  <a href="index.html">Home</a>
+  <a href="songList.html">Song List</a>
+</nav>
+<div class="content">
 
-<h1> Music Player</h1>
+    <div class="player-info">
+        <text id="current">Playing: N/A</text>
+        <text id="volume">Volume: N/A</text>
+    </div>
 
-<br>
-<div>
-    <div class="container2">
-        <text id="current">Playing: undefined</text>
-        <text id="volume">Volume: undefined</text>
+    <div class="audio-player">
+        <audio id="audio" controls="controls" onended="audioEnded()" playsinline preload="auto">
+            <source src = "" id="audioSource" type="audio/mp4"></source>
+            Your browser does not support the audio format.
+        </audio>
     </div>
-    <br>
-    <div>
-    <audio id="audio" controls="controls" style="width:800px" onended="audioEnded()" playsinline preload="auto" autoplay>
-        <source src = "" id="audioSource" type="audio/mp4">></source>
-        Your browser does not support the audio format.
-    </audio>
-    </div>
-    
-</div>
-<br>
-<br>
-<br>
-<br>
-<div class="container3">
-    <div>
-        <p id="autoplayText">
+
+    <div class="controls">
+        <div class="autoplay-toggle">
+            <button type="button" onclick="randomize()">Randomize Song</button>
             <label class="toggle">
                 <input type="checkbox" onclick="toggleAutoplay()">
                 <span class="slider round"></span>
                 <span class="labels" data-on="Loop" data-off="Autoplay"></span>
             </label>
-        </p>
-        <br>
-        <!-- <button type="button" onclick="toggleAutoplay()">Toggle Autoplay</button> -->
-        <button type="button" onclick="randomize()">Randomize Song</button>
+        </div>
+
+        <div class="song-selector">
+            <label>Play song by ID (<a href="songList.html">list</a>):</label>
+            <input type="text" id="idInput" size="10">
+            <input type="button" onclick="playByID()" value="Submit" id="idInputButton">
+        </div>
+
+        <div class="category-selector">
+            <label for="categorySelect">Category:</label>
+            <select name="categorySelect" id="categorySelect" onchange="changeCategory()">
+                <option value="Classical">Classical</option>
+                <option value="Anime">Anime</option>
+                <option value="K-pop">K-pop</option>
+            </select>
+        </div>
     </div>
+</div>
 
-<div>
-    <label>Play song by ID (<a href="songList.html">list</a>):</label>
-    <br>
-    <br>
-    <input type="text" id="idInput" size="10">
-    <br>
-    <input type="button"
-           onclick="playByID()" 
-           value="submit"
-           id="idInputButton">
-           
-</div>
-<div>
-    <label for="cars">Category:</label>
-    <br>
-    <br>
-    <select name="categorySelect" id="categorySelect" onchange="changeCategory()">
-    <option value="Classical">Classical</option>
-    <option value="Anime">Anime</option>
-    <option value="K-pop">K-pop</option>
-    </select>
-</div>
-</div>
+<script src="player.js"></script>
+<script src="data.js"></script>
+
 </body>
-
 </html>

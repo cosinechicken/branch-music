@@ -1,47 +1,84 @@
-body
-{
-   /* transform: scale(1.5); */
-   width: 100%;
-   height: 100%;
-   margin-left: 24px;
-   font-family: georgia;
-}
-input
-{
-    box-sizing:border-box
-}
-h1
-{
-  font-size: 56px;
-}
-div
-{
-  font-size: 24px;
-}
-#idInput, #idInputButton {
-  font-size:24px;
-  width:300px;
-  height:60px;
-}
-button {
-  font-size:24px;
-  width:300px;
-  height:60px;
-}
-select {
-  font-size:24px;
-  width:300px;
-  height:60px;
-}
-.container3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.container2 {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #DDD;
 }
 
+.navbar {
+  display: flex;
+  justify-content: left;
+  background-color: #333;
+  padding: 8px 40px;
+}
+
+.navbar a {
+  color: #ddd;
+  padding: 16px 24px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #bbb;
+  color: black;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 16px 0;
+}
+
+.content {
+  padding: 36px;
+  background-color: #DDD;
+}
+
+.player-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px 24px 24px;
+}
+
+.audio-player {
+  padding: 0 24px;
+}
+
+.audio-player audio {
+  width: 100%;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 0 24px;
+}
+
+.song-selector, .category-selector, .autoplay-toggle, .song-randomizer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  background-color: #DDD;
+}
+
+input, button, select, div {
+  font-size: 24px;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#idInput, select {
+  background-color: #DDD;
+  border: 1px solid #000; /* example border */
+}
+
+/* Rest of the toggle CSS remains unchanged */
 
 
 .toggle {
@@ -52,7 +89,6 @@ select {
   display: inline-block;
   width: var(--width);
   height: var(--height);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -68,7 +104,7 @@ select {
   width: 100%;
   height: 100%;
   border-radius: 4px;
-  background-color: #ccc;
+  background-color: #aaa;
   transition: all 0.4s ease-in-out;
 }
 
@@ -119,7 +155,7 @@ select {
   position: absolute;
   left: 10px;
   top: 5px;
-  color: #ffffff;
+  color: #ddd;
   opacity: 0;
   transition: all 0.4s ease-in-out;
 }
