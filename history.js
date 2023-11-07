@@ -1,12 +1,9 @@
-var historyList = []
 var table = document.getElementById("historyTable").getElementsByTagName('tbody')[0];
-generateTable(table, historyList);
 
 function generateTable(table, data) {
     count = 0
     for (let element of data) {
         count += 1
-        console.log(element);
         let row = table.insertRow(-1);
         for (key in element) {
             let cell = row.insertCell();
@@ -16,3 +13,12 @@ function generateTable(table, data) {
     }
     // document.getElementById("numSongs").textContent = ("Number of songs: " + count);
 }
+
+
+window.onload = function() {
+    // Check if historyList exists and has content
+    let storedHistoryList = JSON.parse(localStorage.getItem('historyList'));
+    if (storedHistoryList && storedHistoryList.length > 0) {
+        generateTable(table, storedHistoryList);
+    }
+};

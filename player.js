@@ -17,12 +17,6 @@ function toggleAutoplay() {
     // Toggle autoplay button
     loop = !loop;
     console.log("AutoPlay toggled");
-    if (loop) {
-        document.getElementById("audio").loop = true;
-    } else {
-        document.getElementById("audio").loop = false;
-    }
-    
 }
 function audioEnded() {
     // Run this function when the audio ends
@@ -31,8 +25,6 @@ function audioEnded() {
     } else {
         play(curIndex);
     }
-    
-    
 }
 function playByID() {
     let id = document.getElementById("idInput").value;
@@ -62,6 +54,11 @@ function play() {
     changeCategory();
     document.getElementById("audio").load();
     document.getElementById("audio").play();
+    let curTime = (new Date(Date.now())).toLocaleString();
+    let nextHistoryElement = [curTime, infoList[curIndex][0], infoList[curIndex][1], infoList[curIndex][2]];
+    let storedHistoryList = JSON.parse(localStorage.getItem('historyList'));
+    storedHistoryList.push(nextHistoryElement);
+    localStorage.setItem('historyList', JSON.stringify(storedHistoryList));
 }
 function changeCategory() {
     // Called when category select is changed, updates the list of songs which can be played

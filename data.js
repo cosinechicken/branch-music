@@ -1718,8 +1718,8 @@ var length = {
 	"Zen zen zense - Your Name": "04:44",
 };
 
-var infoList = []
-var catInfoList = []
+var infoList = [];
+var catInfoList = [];
 for (const [key, value] of Object.entries(dict)) {
 	infoList.push([key, value, categories[value], volume[value], length[value]]);
 	// Default to classical
