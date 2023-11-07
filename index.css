@@ -1,4 +1,5 @@
 body {
+  font-size: 16px;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -6,6 +7,44 @@ body {
   flex-direction: column;
   align-items: stretch;
   background-color: #DDD;
+}
+
+@media (max-width: 1300px) {
+  body {
+    font-size: 24px; /* Larger font size for mobile */
+  }
+
+  .navbar {
+    justify-content: space-around; /* Spread out navbar items */
+    align-items: center;
+  }
+
+  .content {
+    padding: 10% 6%; /* Proportional padding */
+    min-height: 150vh; /* Minimum height to take full viewport height */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-around; /* Distribute space evenly */
+  }
+
+  .player-info {
+    margin-bottom: 4rem; /* Add more space below player info */
+  }
+
+  .controls {
+    gap: 2rem; /* Add space between control elements */
+  }
+
+  .audio-player {
+    margin: 4vh 0; /* Add vertical space around audio player */
+  }
+
+  h1, label, button, input, select {
+    font-size: 1.5rem; /* Increase font size for readability */
+  }
+
+  .toggle {
+    margin-bottom: 4rem; /* Add space below toggle switch */
+  }
 }
 
 .navbar {
