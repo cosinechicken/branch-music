@@ -6,6 +6,17 @@ body {
     height: 100%;
     background-color: #DDD; /* Added background color */
   }
+
+@media (min-resolution: 2dppx) {
+    body {
+        font-size: 24px;
+    }
+
+    .navbar {
+        justify-content: space-around; /* Spread out navbar items */
+        align-items: center;
+    }
+}
   
   .navbar {
     display: flex;
