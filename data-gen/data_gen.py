@@ -60,16 +60,16 @@ def process_file(INPUT_FILE_NAME):
 
     subprocess.call(command, shell=True)
 
-    # sampleRate: int, number of times per second the audio is sampled (44100)
-    # audioData: numpy array of int16's (116134912 samples, 2 channels)
+    # sampleRate: int, number of times per second the audio is sampled
+    # audioData: numpy array of int16's
     sampleRate, audioData = wavfile.read(TEMP_FOLDER+"/audio.wav")
     # Print data about sampleRate and audioData
     # print("AudioData shape: " + str(audioData.shape))   # (116134912, 2)
 
     ###
-    audioSampleCount = audioData.shape[0]           # number of samples or "audio-frames" (116134912)
-    samplesPerFrame = sampleRate/frameRate          # number of times the audio is sampled per frame of the video at 30 frames per second (1470.0)
-    audioFrameCount = int(math.ceil(audioSampleCount/samplesPerFrame))      # Approximately number of frames in the video (79004)
+    audioSampleCount = audioData.shape[0]           # number of samples or "audio-frames"
+    samplesPerFrame = sampleRate/frameRate          # number of times the audio is sampled per frame of the video at 30 frames per second
+    audioFrameCount = int(math.ceil(audioSampleCount/samplesPerFrame))      # Approximately number of frames in the video
 
     audioRMS = np.zeros((audioFrameCount))
 
