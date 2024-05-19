@@ -188,8 +188,13 @@ with open("data.js", 'w') as file:
             category_str += (name + ": \"Anime\",\n" )
         elif id < 1000:
             category_str += (name + ": \"Classical\",\n" )
-        else:
+        elif id < 3000:
             category_str += (name + ": \"K-pop\",\n" )
+        elif id < 4000:
+            category_str += (name + ": \"Western\",\n" )
+        else:
+            category_str += (name + ": \"C-pop\",\n" )
+
         file.write(category_str)
     file.write("};\n\n")
     file.write("var volume = {\n")
